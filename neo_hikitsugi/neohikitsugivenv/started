@@ -1,0 +1,1548 @@
+Script started on 2021-08-15 12:34:24+09:00 [TERM="xterm" TTY="/dev/pty0" COLUMNS="80" LINES="24"]
+([91m♥[0m‿[91m♥[0m) > source Scripts.[K/activate[?5h[?5l
+Script started, output log file is 'started'.
+([91m♥[0m‿[91m♥[0m) > cd Scripts
+([91m♥[0m‿[91m♥[0m) > ls
+Activate.ps1  deactivate.bat         [0m[01;32measy_install.exe[0m*  [01;32mpython.exe[0m*
+[01;34m__pycache__[0m/  [01;32mdjango-admin.exe[0m*      [01;32mpip.exe[0m*           [01;32mpythonw.exe[0m*
+activate      [01;32mdjango-admin.py[0m*       [01;32mpip3.8.exe[0m*        [01;32msqlformat.exe[0m*
+activate.bat  [01;32measy_install-3.8.exe[0m*  [01;32mpip3.exe[0m*
+([91m♥[0m‿[91m♥[0m) > 
+([91m♥[0m‿[91m♥[0m) > 
+([91m♥[0m‿[91m♥[0m) > 
+([91m♥[0m‿[91m♥[0m) > vi activate
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"activate" [unix] 11L, 421C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HScript started on 2021-08-15 12:33:03+09:00 [TERM="xterm" TTY="/dev/pty0" COLUMNN[2;1HS="80" LINES="24"]
+[34m^M
+^M
+^M[m
+c([34m^[[m[91m♥[6;10H[34m^[[m[0m‿[34m^[[m[91m♥[6;23H[34m^[[m[0m) > [34m^M[m
+([34m^[[m[91m♥[7;9H[34m^[[m[0m‿[34m^[[m[91m♥[7;22H[34m^[[m[0m) > [34m^M[m
+([34m^[[m[91m♥[8;9H[34m^[[m[0m‿[34m^[[m[91m♥[8;22H[34m^[[m[0m) > [34m^M[m
+([34m^[[m[91m♥[9;9H[34m^[[m[0m‿[34m^[[m[91m♥[9;22H[34m^[[m[0m) > cd ..[34m^M[m
+([34m^[[m[91m♥[10;9H[34m^[[m[0m‿[34m^[[m[91m♥[10;22H[34m^[[m[0m) > [34m^[[m[?5h[34m^[[m[?5l[34m^[[m[?5h[34m^[[m[?5l[34m^[[m[?5h[34m^[[m[?5l[34m^[[m[?5h[34m^[[m[?5l[34m^[[[m[11;1H[?5h[34m^[[m[?5l[34m^[[m[?5h[34m^[[m[?5l[34m^[[m[?5h[34m^[[m[?5lexit[34m^M[m
+
+Script done on 2021-08-15 12:33:09+09:00 [COMMAND_EXIT_CODE="0"]
+[1m[34m~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [m[23;1H[1m[7mactivate [unix] (12:33 15/08/2021)                                       1,1 All[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HScript started on 2021-08-15 12:33:03+09:00 [TERM="xterm" TTY="/dev/pty0" COLUMNN[2;1HS="80" LINES="24"]
+[1m[34m^M
+^M
+^M[m
+c([1m[34m^[[m[91m♥[6;10H[1m[34m^[[m[0m‿[1m[34m^[[m[91m♥[6;23H[1m[34m^[[m[0m) > [1m[34m^M[m
+([1m[34m^[[m[91m♥[7;9H[1m[34m^[[m[0m‿[1m[34m^[[m[91m♥[7;22H[1m[34m^[[m[0m) > [1m[34m^M[m
+([1m[34m^[[m[91m♥[8;9H[1m[34m^[[m[0m‿[1m[34m^[[m[91m♥[8;22H[1m[34m^[[m[0m) > [1m[34m^M[m
+([1m[34m^[[m[91m♥[9;9H[1m[34m^[[m[0m‿[1m[34m^[[m[91m♥[9;22H[1m[34m^[[m[0m) > cd ..[1m[34m^M[m
+([1m[34m^[[m[91m♥[10;9H[1m[34m^[[m[0m‿[1m[34m^[[m[91m♥[10;22H[1m[34m^[[m[0m) > [1m[34m^[[m[?5h[1m[34m^[[m[?5l[1m[34m^[[m[?5h[1m[34m^[[m[?5l[1m[34m^[[m[?5h[1m[34m^[[m[?5l[1m[34m^[[m[?5h[1m[34m^[[m[?5l[1m[34m^[[[m[11;1H[?5h[1m[34m^[[m[?5l[1m[34m^[[m[?5h[1m[34m^[[m[?5l[1m[34m^[[m[?5h[1m[34m^[[m[?5lexit[1m[34m^M[m
+
+Script done on 2021-08-15 12:33:09+09:00 [COMMAND_EXIT_CODE="0"]
+[1m[34m~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [m[23;1H[1m[7mactivate [unix] (12:33 15/08/2021)                                       1,1 All[m[24;1H"activate" [unix] 11L, 421C[1;1H[?25h[?25l[24;70H:[1;1H[24;1H[K[24;1H:[?2004h[?25hq[?25l[?2004l[23;2t[23;1t[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t([91m♥[0m‿[91m♥[0m) > pi pfre[K[K[K[K[Kp freeze
+([34mT[0m_[34mT[0m) > pip [K[K[K[K[?5h[?5l[?5h[?5lpython -m pip freeze
+[0m[0Kalabaster==0.7.12[0K[?25l
+anaconda-client==1.7.2[0K
+anaconda-navigator==1.10.0[0K
+anaconda-project==0.8.3[0K
+appdirs==1.4.4[0K
+argh==0.26.2[0K
+argon2-cffi @ file:///C:/ci/argon2-cffi_1596828585465/work[0K
+asn1crypto @ file:///tmp/build/80754af9/asn1crypto_1596577642040/work[0K
+astroid @ file:///C:/ci/astroid_1592487315634/work[0K
+astropy==4.0.2[0K
+async-generator==1.10[0K
+atomicwrites==1.4.0[0K
+attrs @ file:///tmp/build/80754af9/attrs_1604765588209/work[0K
+autopep8 @ file:///tmp/build/80754af9/autopep8_1596578164842/work[0K
+Babel @ file:///tmp/build/80754af9/babel_1605108370292/work[0K
+backcall==0.2.0[0K
+backports.functools-lru-cache==1.6.1[0K
+backports.shutil-get-terminal-size==1.0.0[0K
+backports.tempfile==1.0[0K
+backports.weakref==1.0.post1[0K
+bcrypt @ file:///C:/ci/bcrypt_1597936263757/work[0K
+beautifulsoup4 @ file:///tmp/build/80754af9/beautifulsoup4_1601924105527/work[0K
+bitarray @ file:///C:/ci/bitarray_1605065210072/work[0K
+bkcharts==0.2[0K
+bleach @ file:///tmp/build/80754af9/bleach_1600439572647/work[0K
+bokeh @ file:///C:/ci/bokeh_1603297934731/work[0K
+boto==2.49.0[0K
+Bottleneck==1.3.2[0K
+brotlipy==0.7.0[0K
+certifi==2020.6.20[0K
+cffi @ file:///C:/ci/cffi_1600699246375/work[0K
+chardet==3.0.4[0K
+click==7.1.2[0K
+cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1598884132938/work[0K
+clyent==1.2.2[0K
+colorama==0.4.4[0K
+comtypes==1.1.7[0K
+conda==4.9.2[0K
+conda-build==3.20.5[0K
+conda-package-handling @ file:///C:/ci/conda-package-handling_1603003327818/wor[0Kk
+[0K
+conda-verify==3.4.2[0K
+contextlib2==0.6.0.post1[0K
+cryptography @ file:///C:/ci/cryptography_1601046905460/work[0K
+cycler==0.10.0[0K
+Cython @ file:///C:/ci/cython_1594829190914/work[0K
+cytoolz==0.11.0[0K
+dask @ file:///tmp/build/80754af9/dask-core_1602083700509/work[0K
+decorator==5.0.7[0K
+defusedxml==0.6.0[0K
+diff-match-patch @ file:///tmp/build/80754af9/diff-match-patch_1594828741838/wo[0Kr
+k[0K
+distlib==0.3.1[0K
+distributed @ file:///C:/ci/distributed_1605066635297/work[0K
+docutils==0.16[0K
+entrypoints==0.3[0K
+et-xmlfile==1.0.1[0K
+fastcache==1.1.0[0K
+filelock==3.0.12[0K
+flake8 @ file:///tmp/build/80754af9/flake8_1601911421857/work[0K
+Flask==1.1.2[0K
+fsspec @ file:///tmp/build/80754af9/fsspec_1602684995936/work[0K
+future==0.18.2[0K
+gevent @ file:///C:/ci/gevent_1601397627942/work[0K
+glob2==0.7[0K
+greenlet @ file:///C:/ci/greenlet_1600885448389/work[0K
+h5py==2.10.0[0K
+HeapDict==1.0.1[0K
+html5lib @ file:///tmp/build/80754af9/html5lib_1593446221756/work[0K
+idna @ file:///tmp/build/80754af9/idna_1593446292537/work[0K
+imageio @ file:///tmp/build/80754af9/imageio_1594161405741/work[0K
+imagesize==1.2.0[0K
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_160227684239[0K6
+/work[0K
+iniconfig @ file:///tmp/build/80754af9/iniconfig_1602780191262/work[0K
+intervaltree @ file:///tmp/build/80754af9/intervaltree_1598376443606/work[0K
+ipykernel==5.5.3[0K
+ipython==7.22.0[0K
+ipython-genutils==0.2.0[0K
+ipywidgets @ file:///tmp/build/80754af9/ipywidgets_1601490159889/work[0K
+isort @ file:///tmp/build/80754af9/isort_1602603989581/work[0K
+itsdangerous==1.1.0[0K
+jdcal==1.4.1[0K
+jedi==0.18.0[0K
+Jinja2==2.11.2[0K
+joblib @ file:///tmp/build/80754af9/joblib_1601912903842/work[0K
+json5==0.9.5[0K
+jsonschema @ file:///tmp/build/80754af9/jsonschema_1602607155483/work[0K
+jupyter==1.0.0[0K
+jupyter-client==6.1.12[0K
+jupyter-console @ file:///tmp/build/80754af9/jupyter_console_1598884538475/work[0K
+jupyter-core==4.7.1[0K
+jupyterlab==2.2.6[0K
+jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720[0K6
+02/work[0K
+jupyterlab-server @ file:///tmp/build/80754af9/jupyterlab_server_1594164409481/[0Kw
+ork[0K
+keyring @ file:///C:/ci/keyring_1601489747083/work[0K
+kiwisolver @ file:///C:/ci/kiwisolver_1604014703538/work[0K
+lazy-object-proxy==1.4.3[0K
+libarchive-c==2.9[0K
+llvmlite==0.34.0[0K
+locket==0.2.0[0K
+lxml @ file:///C:/ci/lxml_1603216366346/work[0K
+MarkupSafe==1.1.1[0K
+matplotlib @ file:///C:/ci/matplotlib-base_1603355780617/work[0K
+mccabe==0.6.1[0K
+menuinst==1.4.16[0K
+mistune==0.8.4[0K
+mkl-fft==1.2.0[0K
+mkl-random==1.1.1[0K
+mkl-service==2.3.0[0K
+mock==4.0.2[0K
+more-itertools @ file:///tmp/build/80754af9/more-itertools_1605111547926/work[0K
+MouseInfo==0.1.3[0K
+mpmath==1.1.0[0K
+msgpack==1.0.0[0K
+multipledispatch==0.6.0[0K
+navigator-updater==0.2.1[0K
+nbclient @ file:///tmp/build/80754af9/nbclient_1602783176460/work[0K
+nbconvert @ file:///C:/ci/nbconvert_1601914925608/work[0K
+nbformat @ file:///tmp/build/80754af9/nbformat_1602783287752/work[0K
+nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1605115881283/work[0K
+networkx @ file:///tmp/build/80754af9/networkx_1598376031484/work[0K
+nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work[0K
+nose==1.3.7[0K
+notebook @ file:///C:/ci/notebook_1601501643625/work[0K
+numba==0.51.2[0K
+numexpr==2.7.1[0K
+numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work[0K
+numpydoc @ file:///tmp/build/80754af9/numpydoc_1605117425582/work[0K
+olefile==0.46[0K
+openpyxl @ file:///tmp/build/80754af9/openpyxl_1598113097404/work[0K
+packaging==20.4[0K
+pandas @ file:///C:/ci/pandas_1602083338010/work[0K
+pandocfilters @ file:///C:/ci/pandocfilters_1605102497129/work[0K
+paramiko @ file:///tmp/build/80754af9/paramiko_1598886428689/work[0K
+parso==0.8.2[0K
+partd==1.1.0[0K
+path @ file:///C:/ci/path_1598358556930/work[0K
+pathlib2==2.3.5[0K
+pathtools==0.1.2[0K
+patsy==0.5.1[0K
+pep8==1.7.1[0K
+pexpect==4.8.0[0K
+pickleshare==0.7.5[0K
+Pillow @ file:///C:/ci/pillow_1603823068645/work[0K
+pkginfo==1.6.1[0K
+pluggy==0.13.1[0K
+ply==3.11[0K
+prometheus-client==0.8.0[0K
+prompt-toolkit==3.0.18[0K
+psutil @ file:///C:/ci/psutil_1598370330503/work[0K
+py @ file:///tmp/build/80754af9/py_1593446248552/work[0K
+PyAutoGUI==0.9.52[0K
+pycodestyle==2.6.0[0K
+pycosat==0.6.3[0K
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work[0K
+pycurl==7.43.0.6[0K
+pydocstyle @ file:///tmp/build/80754af9/pydocstyle_1598885001695/work[0K
+pyflakes==2.2.0[0K
+PyGetWindow==0.0.9[0K
+Pygments==2.8.1[0K
+pylint @ file:///C:/ci/pylint_1598617153160/work[0K
+PyMsgBox==1.0.9[0K
+PyNaCl @ file:///C:/ci/pynacl_1595000047588/work[0K
+pyodbc===4.0.0-unsupported[0K
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1594392929924/work[0K
+pyparsing==2.4.7[0K
+pyperclip==1.8.2[0K
+pyreadline==2.1[0K
+PyRect==0.1.4[0K
+pyrsistent @ file:///C:/ci/pyrsistent_1600141795814/work[0K
+PyScreeze==0.1.26[0K
+PySocks==1.7.1[0K
+pytest==0.0.0[0K
+python-dateutil==2.8.1[0K
+python-jsonrpc-server @ file:///tmp/build/80754af9/python-jsonrpc-server_160027[0K8
+539111/work[0K
+python-language-server @ file:///tmp/build/80754af9/python-language-server_1600[0K4
+54544709/work[0K
+PyTweening==1.0.3[0K
+pytz==2020.1[0K
+PyWavelets @ file:///C:/ci/pywavelets_1601658407916/work[0K
+pywin32==300[0K
+pywin32-ctypes==0.2.0[0K
+pywinpty==0.5.7[0K
+PyYAML==5.3.1[0K
+pyzmq==22.0.3[0K
+QDarkStyle==2.8.1[0K
+QtAwesome @ file:///tmp/build/80754af9/qtawesome_1602272867890/work[0K
+qtconsole @ file:///tmp/build/80754af9/qtconsole_1600870028330/work[0K
+QtPy==1.9.0[0K
+regex @ file:///C:/ci/regex_1602770567298/work[0K
+requests @ file:///tmp/build/80754af9/requests_1592841827918/work[0K
+rope @ file:///tmp/build/80754af9/rope_1602264064449/work[0K
+Rtree==0.9.4[0K
+ruamel-yaml==0.15.87[0K
+scikit-image==0.17.2[0K
+scikit-learn @ file:///C:/ci/scikit-learn_1598377018496/work[0K
+scipy @ file:///C:/ci/scipy_1604596260408/work[0K
+seaborn @ file:///tmp/build/80754af9/seaborn_1600553570093/work[0K
+selenium==3.141.0[0K
+Send2Trash==1.5.0[0K
+simplegeneric==0.8.1[0K
+singledispatch @ file:///tmp/build/80754af9/singledispatch_1602523705405/work[0K
+sip==4.19.13[0K
+six @ file:///C:/ci/six_1605187374963/work[0K
+snowballstemmer==2.0.0[0K
+sortedcollections==1.2.1[0K
+sortedcontainers==2.2.2[0K
+soupsieve==2.0.1[0K
+Sphinx @ file:///tmp/build/80754af9/sphinx_1597428793432/work[0K
+sphinxcontrib-applehelp==1.0.2[0K
+sphinxcontrib-devhelp==1.0.2[0K
+sphinxcontrib-htmlhelp==1.0.3[0K
+sphinxcontrib-jsmath==1.0.1[0K
+sphinxcontrib-qthelp==1.0.3[0K
+sphinxcontrib-serializinghtml==1.1.4[0K
+sphinxcontrib-websupport @ file:///tmp/build/80754af9/sphinxcontrib-websupport_[0K1
+597081412696/work[0K
+spyder @ file:///C:/ci/spyder_1599054115447/work[0K
+spyder-kernels @ file:///C:/ci/spyder-kernels_1599051709837/work[0K
+SQLAlchemy @ file:///C:/ci/sqlalchemy_1603818908746/work[0K
+statsmodels==0.12.0[0K
+sympy @ file:///C:/ci/sympy_1605101511098/work[0K
+tables==3.6.1[0K
+tblib @ file:///tmp/build/80754af9/tblib_1597928476713/work[0K
+terminado==0.9.1[0K
+testpath==0.4.4[0K
+threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl[0K
+tifffile==2020.10.1[0K
+toml @ file:///tmp/build/80754af9/toml_1592853716807/work[0K
+toolz @ file:///tmp/build/80754af9/toolz_1601054250827/work[0K
+tornado==6.1[0K
+tqdm @ file:///tmp/build/80754af9/tqdm_1602185206534/work[0K
+traitlets==5.0.5[0K
+typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1598376058250/[0Kw
+ork[0K
+ujson @ file:///C:/ci/ujson_1602505266082/work[0K
+unicodecsv==0.14.1[0K[1G[?25h[?25l
+urllib3 @ file:///tmp/build/80754af9/urllib3_1603305693037/work[0K
+virtualenv==20.4.6[0K
+watchdog @ file:///C:/ci/watchdog_1593447437088/work[0K
+wcwidth==0.2.5[0K
+webencodings==0.5.1[0K
+Werkzeug==1.0.1[0K
+widgetsnbextension==3.5.1[0K
+win-inet-pton==1.1.0[0K
+win-unicode-console==0.5[0K
+wincertstore==0.2[0K
+wrapt==1.11.2[0K
+xlrd==1.2.0[0K
+XlsxWriter @ file:///tmp/build/80754af9/xlsxwriter_1602692860603/work[0K
+xlwings==0.20.8[0K
+xlwt==1.3.0[0K
+xmltodict==0.12.0[0K
+yapf @ file:///tmp/build/80754af9/yapf_1593528177422/work[0K
+zict==2.0.0[0K
+zipp @ file:///tmp/build/80754af9/zipp_1604001098328/work[0K
+zope.event==4.5.0[0K
+zope.interface @ file:///C:/ci/zope.interface_1602002494740/work[0K
+[0K[?25h([91m♥[0m‿[91m♥[0m) > python -m pip freeze 
+"[0m[0KTraceback (most recent call last):[0K[?25l
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\runpy.py", line 194, in _run_m[0Ko
+dule_as_main[0K
+    return _run_code(code, main_globals, None,[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\runpy.py", line 87, in _run_co[0Kd
+e[0K
+    exec(code, run_globals)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\pip\__main__.py"[0K,
+ line 26, in <module>[0K
+    sys.exit(_main())[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\pip\_internal\cl[0Ki
+\main.py", line 73, in main[0K
+    command = create_command(cmd_name, isolated=("--isolated" in cmd_args))[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\pip\_internal\co[0Km
+mands\__init__.py", line 104, in create_command[0K
+    module = importlib.import_module(module_path)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\importlib\__init__.py", line 1[0K2
+7, in import_module[0K
+    return _bootstrap._gcd_import(name[level:], package, level)[0K
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import[0K
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load[0K
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked[0K
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked[0K
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module[0K[1G[?25h[?25l
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\pip\_internal\co[0Km
+mands\freeze.py", line 10, in <module>[0K
+    from pip._internal.operations.freeze import freeze[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\pip\_internal\op[0Ke
+rations\freeze.py", line 12, in <module>[0K
+    from pip._internal.req.constructors import ([0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\pip\_internal\re[0Kq
+\__init__.py", line 10, in <module>[0K
+    from .req_install import InstallRequirement[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\pip\_internal\re[0Kq
+\req_install.py", line 18, in <module>[0K
+    from pip._vendor.pep517.wrappers import Pep517HookCaller[0K
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load[0K
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked[0K
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked[0K
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module[0K
+  File "<frozen importlib._bootstrap_external>", line 874, in get_code[0K
+  File "<frozen importlib._bootstrap_external>", line 973, in get_data[0K
+KeyboardInterrupt[0K
+[0K[?25h([34mT[0m_[34mT[0m) > python -m pip freeze | grep django
+stdout is not a tty
+([34mT[0m_[34mT[0m) > 
+([34mT[0m_[34mT[0m) > 
+([34mT[0m_[34mT[0m) > 
+([34mT[0m_[34mT[0m) > 
+([34mT[0m_[34mT[0m) > 
+([34mT[0m_[34mT[0m) > ls
+Activate.ps1  deactivate.bat         [0m[01;32measy_install.exe[0m*  [01;32mpython.exe[0m*
+[01;34m__pycache__[0m/  [01;32mdjango-admin.exe[0m*      [01;32mpip.exe[0m*           [01;32mpythonw.exe[0m*
+activate      [01;32mdjango-admin.py[0m*       [01;32mpip3.8.exe[0m*        [01;32msqlformat.exe[0m*
+activate.bat  [01;32measy_install-3.8.exe[0m*  [01;32mpip3.exe[0m*
+([91m♥[0m‿[91m♥[0m) > pwd
+/c/Users/ts-trent.shintani/programs/project/neo_hikitsugi/neohikitsugivenv/Scripts
+([91m♥[0m‿[91m♥[0m) > rm actiav[K[K[Kivate
+([91m♥[0m‿[91m♥[0m) > cd ../../[?5h[?5l
+db.sqlite3        media/            neohikitsugivenv/ templates/
+manage.py         neohikitsugi/     pages/            
+([91m♥[0m‿[91m♥[0m) > cd ../../../[?5h[?5l
+hikitsugi/     neo_hikitsugi/ 
+([91m♥[0m‿[91m♥[0m) > cd ../../../../[?5h[?5l
+5g/                  cluster/             fixline/
+addColons.py         create_cr/           generate_command.sh
+bmc.py               e2eo/                project/
+change2lower.sh      element/             rcp_input_file.py
+([91m♥[0m‿[91m♥[0m) > cd ../../../../[K[K[K[K/[?5h[?5l
+hikitsugi/     neo_hikitsugi/ 
+([91m♥[0m‿[91m♥[0m) > cd ../../../
+hikitsugi/     neo_hikitsugi/ 
+([91m♥[0m‿[91m♥[0m) > cd ../../../hikitsugi/[?5h[?5l
+backup/        hikitsugikun/  manage.py      templates/     
+db.sqlite3     hikitsugivenv/ pages/         
+([91m♥[0m‿[91m♥[0m) > cd ../../../hikitsugi/hiki[?5h[?5ltsugivenv/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C
+([34mT[0m_[34mT[0m) > cp ../../../hikitsugi/hiki[?5h[?5ltsugivenv/Scripts/acti[?5h[?5lvate . [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K.
+([91m♥[0m‿[91m♥[0m) > pwd
+/c/Users/ts-trent.shintani/programs/project/neo_hikitsugi/neohikitsugivenv/Scripts
+([91m♥[0m‿[91m♥[0m) > 
+([91m♥[0m‿[91m♥[0m) > 
+([91m♥[0m‿[91m♥[0m) > 
+([91m♥[0m‿[91m♥[0m) > ls
+Activate.ps1  deactivate.bat         [0m[01;32measy_install.exe[0m*  [01;32mpython.exe[0m*
+[01;34m__pycache__[0m/  [01;32mdjango-admin.exe[0m*      [01;32mpip.exe[0m*           [01;32mpythonw.exe[0m*
+activate      [01;32mdjango-admin.py[0m*       [01;32mpip3.8.exe[0m*        [01;32msqlformat.exe[0m*
+activate.bat  [01;32measy_install-3.8.exe[0m*  [01;32mpip3.exe[0m*
+([91m♥[0m‿[91m♥[0m) > 
+([91m♥[0m‿[91m♥[0m) > 
+([91m♥[0m‿[91m♥[0m) > 
+([91m♥[0m‿[91m♥[0m) > 
+([91m♥[0m‿[91m♥[0m) > exit
+Script done.
+bash: Scripts/activate: line 5: syntax error near unexpected token `$'\E[91m♥\E[0m‿\E[91m♥\E[0m''
+bash: Scripts/activate: line 5: `c([91m♥[0m‿[91m♥[0m) > '
+([34mT[0m_[34mT[0m) > ls
+[0m[01;34mInclude[0m/  [01;34mLib[0m/  [01;34mScripts[0m/  pyvenv.cfg  started
+([91m♥[0m‿[91m♥[0m) > cd Scripts
+([91m♥[0m‿[91m♥[0m) > ls
+Activate.ps1  deactivate.bat         [0m[01;32measy_install.exe[0m*  [01;32mpython.exe[0m*
+[01;34m__pycache__[0m/  [01;32mdjango-admin.exe[0m*      [01;32mpip.exe[0m*           [01;32mpythonw.exe[0m*
+activate      [01;32mdjango-admin.py[0m*       [01;32mpip3.8.exe[0m*        [01;32msqlformat.exe[0m*
+activate.bat  [01;32measy_install-3.8.exe[0m*  [01;32mpip3.exe[0m*
+([91m♥[0m‿[91m♥[0m) > 
+([91m♥[0m‿[91m♥[0m) > 
+([91m♥[0m‿[91m♥[0m) > 
+([91m♥[0m‿[91m♥[0m) > cat activ[?5h[?5late
+# This file must be used with "source bin/activate" *from bash*
+# you cannot run it directly
+
+deactivate () {
+    # reset old environment variables
+    if [ -n "${_OLD_VIRTUAL_PATH:-}" ] ; then
+        PATH="${_OLD_VIRTUAL_PATH:-}"
+        export PATH
+        unset _OLD_VIRTUAL_PATH
+    fi
+    if [ -n "${_OLD_VIRTUAL_PYTHONHOME:-}" ] ; then
+        PYTHONHOME="${_OLD_VIRTUAL_PYTHONHOME:-}"
+        export PYTHONHOME
+        unset _OLD_VIRTUAL_PYTHONHOME
+    fi
+
+    # This should detect bash and zsh, which have a hash command that must
+    # be called to get it to forget past commands.  Without forgetting
+    # past commands the $PATH changes we made may not be respected
+    if [ -n "${BASH:-}" -o -n "${ZSH_VERSION:-}" ] ; then
+        hash -r
+    fi
+
+    if [ -n "${_OLD_VIRTUAL_PS1:-}" ] ; then
+        PS1="${_OLD_VIRTUAL_PS1:-}"
+        export PS1
+        unset _OLD_VIRTUAL_PS1
+    fi
+
+    unset VIRTUAL_ENV
+    if [ ! "${1:-}" = "nondestructive" ] ; then
+    # Self destruct!
+        unset -f deactivate
+    fi
+}
+
+# unset irrelevant variables
+deactivate nondestructive
+
+VIRTUAL_ENV="C:\Users\ts-trent.shintani\programs\project\hikitsugi\hikitsugivenv"
+export VIRTUAL_ENV
+
+_OLD_VIRTUAL_PATH="$PATH"
+PATH="$VIRTUAL_ENV/Scripts:$PATH"
+export PATH
+
+# unset PYTHONHOME if set
+# this will fail if PYTHONHOME is set to the empty string (which is bad anyway)
+# could use `if (set -u; : $PYTHONHOME) ;` in bash
+if [ -n "${PYTHONHOME:-}" ] ; then
+    _OLD_VIRTUAL_PYTHONHOME="${PYTHONHOME:-}"
+    unset PYTHONHOME
+fi
+
+if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
+    _OLD_VIRTUAL_PS1="${PS1:-}"
+    if [ "x(hikitsugivenv) " != x ] ; then
+	PS1="(hikitsugivenv) ${PS1:-}"
+    else
+    if [ "`basename \"$VIRTUAL_ENV\"`" = "__" ] ; then
+        # special case for Aspen magic directories
+        # see http://www.zetadev.com/software/aspen/
+        PS1="[`basename \`dirname \"$VIRTUAL_ENV\"\``] $PS1"
+    else
+        PS1="(`basename \"$VIRTUAL_ENV\"`)$PS1"
+    fi
+    fi
+    export PS1
+fi
+
+# This should detect bash and zsh, which have a hash command that must
+# be called to get it to forget past commands.  Without forgetting
+# past commands the $PATH changes we made may not be respected
+if [ -n "${BASH:-}" -o -n "${ZSH_VERSION:-}" ] ; then
+    hash -r
+fi
+([91m♥[0m‿[91m♥[0m) > [K([91m♥[0m‿[91m♥[0m) > ls
+Activate.ps1  activate      deactivate.bat     [0m[01;32mdjango-admin.py[0m*       [01;32measy_install.exe[0m*  [01;32mpip3.8.exe[0m*  [01;32mpython.exe[0m*   [01;32msqlformat.exe[0m*
+[01;34m__pycache__[0m/  activate.bat  [01;32mdjango-admin.exe[0m*  [01;32measy_install-3.8.exe[0m*  [01;32mpip.exe[0m*           [01;32mpip3.exe[0m*    [01;32mpythonw.exe[0m*
+([91m♥[0m‿[91m♥[0m) > source a[?5h[?5lctivate
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > cd ..
+(base) ([91m♥[0m‿[91m♥[0m) > ls
+[0m[01;34mInclude[0m/  [01;34mLib[0m/  [01;34mScripts[0m/  pyvenv.cfg  started
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > cd ..
+(base) ([91m♥[0m‿[91m♥[0m) > ls
+db.sqlite3  [0m[01;32mmanage.py[0m*  [01;34mmedia[0m/  [01;34mneohikitsugi[0m/  [01;34mneohikitsugivenv[0m/  [01;34mpages[0m/  [01;34mtemplates[0m/
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > [C[11Preverse-i-search)`':[Cr': source activateu': python manage.py runserver[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@base) ([91m♥[0m‿[91m♥[0m) >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[0m[0KTraceback (most recent call last):[0K[?25l
+  File "manage.py", line 11, in main[0K
+    from django.core.management import execute_from_command_line[0K
+ModuleNotFoundError: No module named 'django'[0K
+[0K
+The above exception was the direct cause of the following exception:[0K
+[0K
+Traceback (most recent call last):[0K
+  File "manage.py", line 22, in <module>[0K
+    main()[0K
+  File "manage.py", line 13, in main[0K
+    raise ImportError([0K
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?[0K
+[0K[?25h(base) ([34mT[0m_[34mT[0m) > deactivate
+DeprecationWarning: 'source deactivate' is deprecated. Use 'conda deactivate'.
+ls
+(base) ([91m♥[0m‿[91m♥[0m) > ls
+db.sqlite3  [0m[01;32mmanage.py[0m*  [01;34mmedia[0m/  [01;34mneohikitsugi[0m/  [01;34mneohikitsugivenv[0m/  [01;34mpages[0m/  [01;34mtemplates[0m/
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > 
+(base) ([91m♥[0m‿[91m♥[0m) > [C[11Preverse-i-search)`':[Cr': python manage.py runserver[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@u[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@base) ([91m♥[0m‿[91m♥[0m) >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[0m[0KTraceback (most recent call last):[0K[?25l
+  File "manage.py", line 11, in main[0K
+    from django.core.management import execute_from_command_line[0K
+ModuleNotFoundError: No module named 'django'[0K
+[0K
+The above exception was the direct cause of the following exception:[0K
+[0K
+Traceback (most recent call last):[0K
+  File "manage.py", line 22, in <module>[0K
+    main()[0K
+  File "manage.py", line 13, in main[0K
+    raise ImportError([0K
+ImportError: Couldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?[0K
+[0K[?25h(base) ([34mT[0m_[34mT[0m) > pip install django
+Collecting django
+  Using cached Django-3.2.6-py3-none-any.whl (7.9 MB)
+Requirement already satisfied: pytz in c:\users\ts-trent.shintani\anaconda3\lib\site-packages (from django) (2020.1)
+Collecting sqlparse>=0.2.2
+  Using cached sqlparse-0.4.1-py3-none-any.whl (42 kB)
+Collecting asgiref<4,>=3.3.2
+  Using cached asgiref-3.4.1-py3-none-any.whl (25 kB)
+Installing collected packages: sqlparse, asgiref, django
+Successfully installed asgiref-3.4.1 django-3.2.6 sqlparse-0.4.1
+(base) ([91m♥[0m‿[91m♥[0m) > [C[11Preverse-i-search)`':[Cr': python manage.py runserver[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@u[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@v[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@base) ([91m♥[0m‿[91m♥[0m) >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[0m[0KWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 12:44:03[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25hNot Found: /[0K[?25l
+[15/Aug/2021 12:44:06] [0;33m"GET / HTTP/1.1" 404 3637[0m[0K
+[0K[?25h[15/Aug/2021 12:44:06,094] - Broken pipe from ('127.0.0.1', 55452)[0K[?25l
+[0K
+[0K[?25hInternal Server Error: /favicon.ico/[0K[?25l
+Traceback (most recent call last):[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner[0K
+    response = get_response(request)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response[0K
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)[0K
+  File "C:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py", line 60, in ViewPost[0K
+    cluster_code = Cluster.objects.get(cluster_code=cluster_code)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method[0K
+    return getattr(self.get_queryset(), name)(*args, **kwargs)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\db\models\query.py", line 435, in get[0K
+    raise self.model.DoesNotExist([0K
+pages.models.Cluster.DoesNotExist: Cluster matching query does not exist.[0K
+[15/Aug/2021 12:44:06,194] - Broken pipe from ('127.0.0.1', 55451)[0K
+[0K
+[0K[?25h[15/Aug/2021 12:44:15] "GET /CR-list/ HTTP/1.1" 200 1549[0K[?25l
+[0K[?25h[15/Aug/2021 12:45:20] "GET /CR-list/ HTTP/1.1" 200 1584[0K[?25l
+[0K[?25h[15/Aug/2021 12:45:39] "GET /CR-list/ HTTP/1.1" 200 1596[0K[?25l
+[0K[?25h[15/Aug/2021 12:45:40] "GET /CR-list/ HTTP/1.1" 200 1596[0K[?25l
+[0K[?25h[15/Aug/2021 12:45:44] "GET /CR-list/ HTTP/1.1" 200 1596[0K[?25l
+[0K[?25h[15/Aug/2021 12:45:45] "GET /CR-list/ HTTP/1.1" 200 1596[0K[?25l
+[0K[?25h[15/Aug/2021 12:45:46] "GET /CR-list/ HTTP/1.1" 200 1596[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:02] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:03] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:20] "GET /CR-list/ HTTP/1.1" 200 1604[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:20] "GET /CR-list/ HTTP/1.1" 200 1604[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:35] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:36] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:37] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:37] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:38] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:38] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:38] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:38] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:39] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:39] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:39] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:39] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:39] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:39] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:40] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:40] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:40] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:40] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:46:40] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[?25l[15/Aug/2021 12:46:41][0K[1G[?25h[15/Aug/2021 12:46:41] "GET /CR-list/ HTTP/1.1" 200 1617[0K[?25l
+[0K[?25h[15/Aug/2021 12:47:16] "GET /CR-list/ HTTP/1.1" 200 1618[0K[?25l
+[0K[?25h[15/Aug/2021 12:47:16] [0;32m"GET /favicon.ico HTTP/1.1" 301 0[0m[0K[?25l
+[0K[?25h[15/Aug/2021 12:47:36] "GET /CR-list/ HTTP/1.1" 200 1635[0K[?25l
+[0K[?25h[15/Aug/2021 12:47:55] "GET /CR-list/ HTTP/1.1" 200 1654[0K[?25l
+[0K[?25h[15/Aug/2021 12:47:56] "GET /CR-list/ HTTP/1.1" 200 1654[0K[?25l
+[0K[?25h[15/Aug/2021 12:48:09] "GET /CR-list/ HTTP/1.1" 200 1654[0K[?25l
+[0K[?25h[15/Aug/2021 12:48:26] "GET /CR-list/ HTTP/1.1" 200 1663[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:11] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:11,665] - Broken pipe from ('127.0.0.1', 52078)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 13:30:12] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:13] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:13] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:14] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:14] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:14] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:15] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:15] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:15] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:15] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:15] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:16] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:16] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:16] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:16] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:16] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:17] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:17] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:17] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:17] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:17] "GET /CR-list/ HTTP/1.1" 200 1689[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:47] "GET /CR-list/ HTTP/1.1" 200 1690[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:48] "GET /CR-list/ HTTP/1.1" 200 1690[0K[?25l
+[0K[?25h[15/Aug/2021 13:30:48] "GET /CR-list/ HTTP/1.1" 200 1690[0K[?25l
+[0K[?25h[15/Aug/2021 13:34:10] "GET /CR-list/ HTTP/1.1" 200 1681[0K[?25l
+[0K[?25h[15/Aug/2021 13:35:34] "GET /CR-list/ HTTP/1.1" 200 1681[0K[?25l
+[0K[?25h[15/Aug/2021 13:36:05] "GET /newcr/ HTTP/1.1" 200 2074[0K[?25l
+[0K[?25h[15/Aug/2021 13:36:32] [0;32m"POST /newcr/ HTTP/1.1" 302 0[0m[0K[?25l
+[15/Aug/2021 13:36:32] "GET /CR-list/ HTTP/1.1" 200 1975[0K
+[0K[?25h[15/Aug/2021 13:38:03] "GET /CR-list/ HTTP/1.1" 200 1975[0K[?25l
+[0K[?25h[15/Aug/2021 13:38:05] "GET /CR-list/ HTTP/1.1" 200 1975[0K[?25l
+[0K[?25h[15/Aug/2021 13:38:12] "GET /CR-list/ HTTP/1.1" 200 1975[0K[?25l
+[0K[?25h[15/Aug/2021 13:38:35] "GET /CR-list/ HTTP/1.1" 200 1975[0K[?25l
+[0K[?25h[15/Aug/2021 13:38:42] "GET /CR-list/ HTTP/1.1" 200 1975[0K[?25l
+[0K[?25h[15/Aug/2021 13:38:50] "GET /CR-list/ HTTP/1.1" 200 1976[0K[?25l
+[0K[?25h[15/Aug/2021 13:39:01] "GET /CR-list/ HTTP/1.1" 200 1975[0K[?25l
+[0K[?25h[15/Aug/2021 13:39:10] "GET /newcr/ HTTP/1.1" 200 2074[0K[?25l
+[0K[?25h[15/Aug/2021 13:44:05] "GET /CR-list/ HTTP/1.1" 200 2675[0K[?25l
+[0K[?25h[15/Aug/2021 13:44:05,195] - Broken pipe from ('127.0.0.1', 54649)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 13:50:27] "GET /CR-list/ HTTP/1.1" 200 2096[0K[?25l
+[15/Aug/2021 13:50:27,894] - Broken pipe from ('127.0.0.1', 54670)[0K
+[0K
+[0K[?25h[15/Aug/2021 13:50:41] "GET /newcr/ HTTP/1.1" 200 2074[0K[?25l
+[0K[?25h[15/Aug/2021 13:51:28] "GET /newcr/ HTTP/1.1" 200 2074[0K[?25l
+[0K[?25h[15/Aug/2021 13:51:44] [0;32m"POST /newcr/ HTTP/1.1" 302 0[0m[0K[?25l
+[0K[?25h[15/Aug/2021 13:51:44] "GET /CR-list/ HTTP/1.1" 200 2422[0K[?25l
+[0K[?25h[15/Aug/2021 13:53:33] "GET /newcr/ HTTP/1.1" 200 2074[0K[?25l
+[0K[?25h[15/Aug/2021 13:54:04] [0;32m"POST /newcr/ HTTP/1.1" 302 0[0m[0K[?25l
+[15/Aug/2021 13:54:04] "GET /CR-list/ HTTP/1.1" 200 2768[0K
+[0K[?25h[15/Aug/2021 13:54:09] "GET /edit_cr/6/ HTTP/1.1" 200 2092[0K[?25l
+[0K[?25h[15/Aug/2021 13:54:17] [0;32m"POST /edit_cr/6/ HTTP/1.1" 302 0[0m[0K[?25l
+[15/Aug/2021 13:54:17] "GET /CR-list/ HTTP/1.1" 200 2763[0K
+[0K[?25h[15/Aug/2021 13:55:52] "GET /GC-list/ HTTP/1.1" 200 1866[0K[?25l
+[0K[?25h[15/Aug/2021 13:55:52] [0;32m"GET /favicon.ico HTTP/1.1" 301 0[0m[0K[?25l
+[0K[?25h[15/Aug/2021 14:01:11] "GET /CR-list/ HTTP/1.1" 200 2763[0K[?25l
+[0K[?25h[15/Aug/2021 14:01:11] [0;32m"GET /favicon.ico HTTP/1.1" 301 0[0m[0K[?25l
+[15/Aug/2021 14:01:11,352] - Broken pipe from ('127.0.0.1', 54732)[0K
+[0K
+[0K[?25h[15/Aug/2021 14:01:18] "GET /newcr/ HTTP/1.1" 200 2074[0K[?25l
+[0K[?25h[15/Aug/2021 14:02:17] "GET /newcr/ HTTP/1.1" 200 2178[0K[?25l
+[0K[?25h[15/Aug/2021 14:02:53] "GET /newcr/ HTTP/1.1" 200 2179[0K[?25l
+[0K[?25h[15/Aug/2021 14:03:49] "GET /newcr/ HTTP/1.1" 200 2195[0K[?25l
+[0K[?25h[15/Aug/2021 14:03:49,061] - Broken pipe from ('127.0.0.1', 54735)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 14:04:03] "GET /newcr/ HTTP/1.1" 200 2179[0K[?25l
+[0K[?25h[15/Aug/2021 14:04:13] "GET /newcr/ HTTP/1.1" 200 2179[0K[?25l
+[0K[?25h[15/Aug/2021 14:05:08] "GET /newcr/ HTTP/1.1" 200 2191[0K[?25l
+[0K[?25h[15/Aug/2021 14:05:08,155] - Broken pipe from ('127.0.0.1', 54812)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 14:05:36] "GET /GC-list/ HTTP/1.1" 200 1866[0K[?25l
+[0K[?25h[15/Aug/2021 14:05:41] "GET /uhn6trent/ HTTP/1.1" 200 815[0K[?25l
+[0K[?25h[15/Aug/2021 14:05:43] "GET /uhn6hiroko/ HTTP/1.1" 200 817[0K[?25l
+[0K[?25h[15/Aug/2021 14:05:48] "GET /RDC-list/ HTTP/1.1" 200 1199[0K[?25l
+[0K[?25h[15/Aug/2021 14:05:49] "GET /uhn9Jay/ HTTP/1.1" 200 811[0K[?25l
+[0K[?25h[15/Aug/2021 14:05:54] "GET /uhn9Jay/newpost/ HTTP/1.1" 200 1418[0K[?25l
+[0K[?25h[15/Aug/2021 14:06:49] [0;32m"POST /uhn9Jay/newpost/ HTTP/1.1" 302 0[0m[0K[?25l
+[0K[?25h[15/Aug/2021 14:06:49] "GET /uhn9Jay/ HTTP/1.1" 200 1042[0K[?25l
+[0K[?25h[15/Aug/2021 14:07:03] "GET /uhn9Jay/newpost/ HTTP/1.1" 200 1418[0K[?25l
+[0K[?25h[15/Aug/2021 14:07:34] [0;32m"POST /uhn9Jay/newpost/ HTTP/1.1" 302 0[0m[0K[?25l
+[0K[?25h[15/Aug/2021 14:07:34] "GET /uhn9Jay/ HTTP/1.1" 200 1265[0K[?25l
+[0K[?25h[15/Aug/2021 14:08:27] "GET /CR-list/ HTTP/1.1" 200 2763[0K[?25l
+[0K[?25h[15/Aug/2021 14:08:27] [0;32m"GET /favicon.ico HTTP/1.1" 301 0[0m[0K[?25l
+[0K[?25h[15/Aug/2021 14:09:16] "GET /GC-list/ HTTP/1.1" 200 1866[0K[?25l
+[0K[?25h[15/Aug/2021 14:09:29] "GET /uhn6yuuka/ HTTP/1.1" 200 815[0K[?25l
+[0K[?25h[15/Aug/2021 14:09:36,999] - Broken pipe from ('127.0.0.1', 54939)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 14:11:56] "GET /uhn6trent/ HTTP/1.1" 200 815[0K[?25l
+[0K[?25h[15/Aug/2021 14:11:58,183] - Broken pipe from ('127.0.0.1', 54947)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 14:12:11] "GET /GC-list/ HTTP/1.1" 200 1866[0K[?25l
+[0K[?25h[15/Aug/2021 14:14:01] "GET /uhn6trent/ HTTP/1.1" 200 920[0K[?25l
+[0K[?25h[15/Aug/2021 14:14:05] "GET /uhn6trent/newpost/ HTTP/1.1" 200 1418[0K[?25l
+[0K[?25h[15/Aug/2021 14:14:34] "GET /RDC-list/ HTTP/1.1" 200 1199[0K[?25l
+[0K[?25h[15/Aug/2021 14:14:36] "GET /uhn9Jay/ HTTP/1.1" 200 1370[0K[?25l
+[0K[?25h[15/Aug/2021 14:14:54] "GET /uhn9Jay/newpost/ HTTP/1.1" 200 1418[0K[?25l
+[0K[?25hInternal Server Error: /Cr-list/[0K[?25l
+Traceback (most recent call last):[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner[0K
+    response = get_response(request)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response[0K
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)[0K
+  File "C:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py", line 60, in ViewPost[0K
+    cluster_code = Cluster.objects.get(cluster_code=cluster_code)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\db\models\manager.py", line 85, in manager_method[0K
+    return getattr(self.get_queryset(), name)(*args, **kwargs)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\db\models\query.py", line 435, in get[0K
+    raise self.model.DoesNotExist([0K
+pages.models.Cluster.DoesNotExist: Cluster matching query does not exist.[0K
+[15/Aug/2021 14:15:01] [0;35;95m"GET /Cr-list/ HTTP/1.1" 500 82528[0m[0K
+[0K[?25h[15/Aug/2021 14:15:09] "GET /CR-list/ HTTP/1.1" 200 2763[0K[?25l
+[0K[?25h[15/Aug/2021 14:15:18] "GET /edit_cr/2/ HTTP/1.1" 200 2087[0K[?25l
+[0K[?25h[15/Aug/2021 14:15:24] "GET /newcr/ HTTP/1.1" 200 2191[0K[?25l
+[0K[?25h[15/Aug/2021 14:16:12] "GET /newcr/ HTTP/1.1" 200 2191[0K[?25l
+[0K[?25h[15/Aug/2021 14:16:15] "GET /edit_cr/2/ HTTP/1.1" 200 2204[0K[?25l
+[0K[?25h[15/Aug/2021 14:16:21] "GET /newcr/ HTTP/1.1" 200 2191[0K[?25l
+[0K[?25h[15/Aug/2021 14:16:25] "GET /edit_cr/2/ HTTP/1.1" 200 2204[0K[?25l
+[0K[?25h[15/Aug/2021 14:16:37] "GET /newcr/ HTTP/1.1" 200 2191[0K[?25l
+[0K[?25h[15/Aug/2021 14:16:48] "GET /RDC-list/ HTTP/1.1" 200 1199[0K[?25l
+[0K[?25h[?25l[15/Aug/2021 14:16:50][0K[1G[?25h[15/Aug/2021 14:16:50] "GET /uhn9Jay/ HTTP/1.1" 200 1370[0K[?25l
+[0K[?25h[15/Aug/2021 14:16:56] "GET /uhn9Jay/newpost/ HTTP/1.1" 200 1418[0K[?25l
+[0K[?25h[15/Aug/2021 14:17:09] "GET /uhn9Jay/newpost/ HTTP/1.1" 200 1535[0K[?25l
+[0K[?25h[?25l[15/Aug/2021 14:17:17] "GET /edit_post/55/ HTTP/1.1" 200 1537[0K[1G[?25h[?25l
+[0K[?25h[15/Aug/2021 14:17:31] "GET /edit_post/55/ HTTP/1.1" 200 1654[0K[?25l
+[0K[?25h[15/Aug/2021 14:25:03] "GET /uhn9Jay/ HTTP/1.1" 200 1370[0K[?25l
+[0K[?25h[15/Aug/2021 14:25:03] [0;32m"GET /favicon.ico HTTP/1.1" 301 0[0m[0K[?25l
+[0K[?25h[15/Aug/2021 14:25:04] "GET /uhn9Jay/ HTTP/1.1" 200 1370[0K[?25l
+[0K[?25h[15/Aug/2021 14:25:16] "GET /uhn9Jay/newpost/ HTTP/1.1" 200 1535[0K[?25l
+[0K[?25h[15/Aug/2021 14:25:24] "GET /CR-list/ HTTP/1.1" 200 2763[0K[?25l
+[0K[?25h[15/Aug/2021 15:20:10] "GET /CR-list/ HTTP/1.1" 200 2943[0K[?25l
+[0K[?25h[15/Aug/2021 15:20:10,820] - Broken pipe from ('127.0.0.1', 50794)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 15:20:58] "GET /CR-list/ HTTP/1.1" 200 2998[0K[?25l
+[0K[?25h[15/Aug/2021 15:21:18] "GET /CR-list/ HTTP/1.1" 200 3027[0K[?25l
+[0K[?25h[15/Aug/2021 15:21:52] "GET /CR-list/ HTTP/1.1" 200 3051[0K[?25l
+[0K[?25h[15/Aug/2021 15:22:13] "GET /CR-list/ HTTP/1.1" 200 3058[0K[?25l
+[0K[?25h[15/Aug/2021 15:22:14] "GET /CR-list/ HTTP/1.1" 200 3058[0K[?25l
+[0K[?25h[15/Aug/2021 15:22:14] "GET /CR-list/ HTTP/1.1" 200 3058[0K[?25l
+[0K[?25h[15/Aug/2021 15:22:14] "GET /CR-list/ HTTP/1.1" 200 3058[0K[?25l
+[0K[?25h[15/Aug/2021 15:22:28] "GET /CR-list/ HTTP/1.1" 200 3074[0K[?25l
+[0K[?25h[15/Aug/2021 15:22:29] "GET /CR-list/ HTTP/1.1" 200 3074[0K[?25l
+[0K[?25h[15/Aug/2021 15:22:29] "GET /CR-list/ HTTP/1.1" 200 3074[0K[?25l
+[0K[?25h[15/Aug/2021 15:24:11] "GET /CR-list/ HTTP/1.1" 200 3054[0K[?25l
+[15/Aug/2021 15:24:11,057] - Broken pipe from ('127.0.0.1', 50798)[0K
+[0K
+[0K[?25h[15/Aug/2021 15:25:01] "GET /CR-list/ HTTP/1.1" 200 3082[0K[?25l
+[0K[?25h[15/Aug/2021 15:25:01,522] - Broken pipe from ('127.0.0.1', 50908)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 15:49:24] "GET /CR-list/ HTTP/1.1" 200 3115[0K[?25l
+[0K[?25h[15/Aug/2021 15:49:24,877] - Broken pipe from ('127.0.0.1', 62898)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 15:49:25] "GET /CR-list/ HTTP/1.1" 200 3115[0K[?25l
+[0K[?25h[15/Aug/2021 15:49:42] "GET /CR-list/ HTTP/1.1" 200 3138[0K[?25l
+[0K[?25h[15/Aug/2021 15:49:57] "GET /CR-list/ HTTP/1.1" 200 3161[0K[?25l
+[0K[?25h[?25l[15/Aug/2021 15:52:39] "GET /CR-list/ HTTP/1.1" 200 3187[0K[1G[?25h[?25l
+[0K[?25h[15/Aug/2021 15:53:04] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:04] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:05] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:05] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:05] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:17] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:18] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:18] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:28] "GET /CR-list/ HTTP/1.1" 200 3210[0K[?25l
+[0K[?25h[?25l[15/Aug/2021 15:53:29] "GET /CR-list/ HTTP/1.1" 200 3210[0K[1G[?25h[?25l
+[0K[?25h[15/Aug/2021 15:53:29] "GET /CR-list/ HTTP/1.1" 200 3210[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:29] "GET /CR-list/ HTTP/1.1" 200 3210[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:29] "GET /CR-list/ HTTP/1.1" 200 3210[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:30] "GET /CR-list/ HTTP/1.1" 200 3210[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:30] "GET /CR-list/ HTTP/1.1" 200 3210[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:30] "GET /CR-list/ HTTP/1.1" 200 3210[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:30] "GET /CR-list/ HTTP/1.1" 200 3210[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:30] "GET /CR-list/ HTTP/1.1" 200 3210[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:30] "GET /CR-list/ HTTP/1.1" 200 3210[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:30] "GET /CR-list/ HTTP/1.1" 200 3210[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:31] "GET /CR-list/ HTTP/1.1" 200 3210[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:31] "GET /CR-list/ HTTP/1.1" 200 3210[0K[?25l
+[0K[?25h[15/Aug/2021 15:53:31] "GET /CR-list/ HTTP/1.1" 200 3210[0K[?25l
+[0K[?25h[15/Aug/2021 17:12:24] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 17:12:30] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 17:12:31] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 17:12:31] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 17:12:31] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 17:12:53] "GET /CR-list/ HTTP/1.1" 200 3226[0K[?25l
+[0K[?25h[15/Aug/2021 17:13:03] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 17:13:51] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 17:13:52] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 17:13:52] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 17:13:52] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 17:13:52] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[?25l[15/Aug/2021 17:13:52] "GET /CR-list/ HTTP/1.1" 200 3217[0K[24G[?25h[?25l
+[0K[?25h[15/Aug/2021 17:13:53] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 17:13:53] "GET /CR-list/ HTTP/1.1" 200 3217[0K[?25l
+[0K[?25h[15/Aug/2021 17:14:27] "GET /CR-list/ HTTP/1.1" 200 3228[0K[?25l
+[0K[?25h[15/Aug/2021 17:14:27,117] - Broken pipe from ('127.0.0.1', 63688)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 17:14:27] "GET /CR-list/ HTTP/1.1" 200 3228[0K[?25l
+[0K[?25h[15/Aug/2021 17:14:27] "GET /CR-list/ HTTP/1.1" 200 3228[0K[?25l
+[0K[?25h[15/Aug/2021 17:14:28] "GET /CR-list/ HTTP/1.1" 200 3228[0K[?25l
+[0K[?25h[15/Aug/2021 17:14:28] "GET /CR-list/ HTTP/1.1" 200 3228[0K[?25l
+[0K[?25h[15/Aug/2021 17:14:28] "GET /CR-list/ HTTP/1.1" 200 3228[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:08] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:13] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:13] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[?25l[15/Aug/2021 17:15:13] "GET /CR-list/ HTTP/1.1" 200 3252[0K[24G[?25h[?25l
+[0K[?25h[15/Aug/2021 17:15:14] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:14] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:14] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:14] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:14] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:14] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:15] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:15] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:15] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:15] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:15] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:15] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:16] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:16] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:16] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[?25l[15/Aug/2021 17:15:16] "GET /CR-list/ HTTP/1.1" 200 3252[0K[1G[?25h[?25l
+[0K[?25h[15/Aug/2021 17:15:17] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:17] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:17] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:15:17] "GET /CR-list/ HTTP/1.1" 200 3252[0K[?25l
+[0K[?25h[15/Aug/2021 17:17:36,006] - Broken pipe from ('127.0.0.1', 52240)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 17:17:36] "GET /CR-list/ HTTP/1.1" 200 3228[0K[?25l
+[0K[?25h[15/Aug/2021 17:17:37] "GET /CR-list/ HTTP/1.1" 200 3228[0K[?25l
+[0K[?25h[15/Aug/2021 17:17:37] "GET /CR-list/ HTTP/1.1" 200 3228[0K[?25l
+[0K[?25h[15/Aug/2021 17:17:37] "GET /CR-list/ HTTP/1.1" 200 3228[0K[?25l
+[0K[?25h[15/Aug/2021 17:17:37] "GET /CR-list/ HTTP/1.1" 200 3228[0K[?25l
+[0K[?25h[15/Aug/2021 17:17:37] "GET /CR-list/ HTTP/1.1" 200 3228[0K[?25l
+[0K[?25h[15/Aug/2021 17:17:38] "GET /CR-list/ HTTP/1.1" 200 3228[0K[?25l
+[0K[?25h[15/Aug/2021 17:17:38] "GET /CR-list/ HTTP/1.1" 200 3228[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:05] "GET /CR-list/ HTTP/1.1" 200 3243[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:05] "GET /CR-list/ HTTP/1.1" 200 3243[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:05] "GET /CR-list/ HTTP/1.1" 200 3243[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:06] "GET /CR-list/ HTTP/1.1" 200 3243[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:06] "GET /CR-list/ HTTP/1.1" 200 3243[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:06] "GET /CR-list/ HTTP/1.1" 200 3243[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:06] "GET /CR-list/ HTTP/1.1" 200 3243[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:06] "GET /CR-list/ HTTP/1.1" 200 3243[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:07] "GET /CR-list/ HTTP/1.1" 200 3243[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:07] "GET /CR-list/ HTTP/1.1" 200 3243[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:07] "GET /CR-list/ HTTP/1.1" 200 3243[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:14] "GET /CR-list/ HTTP/1.1" 200 3254[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:15] "GET /CR-list/ HTTP/1.1" 200 3254[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:15] "GET /CR-list/ HTTP/1.1" 200 3254[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:15] "GET /CR-list/ HTTP/1.1" 200 3254[0K[?25l
+[0K[?25h[15/Aug/2021 17:19:15] "GET /CR-list/ HTTP/1.1" 200 3254[0K[?25l
+[0K[?25h[15/Aug/2021 17:20:46] "GET /CR-list/ HTTP/1.1" 200 3254[0K[?25l
+[0K[?25h[15/Aug/2021 17:20:46] [0;32m"GET /favicon.ico HTTP/1.1" 301 0[0m[0K[?25l
+[0K[?25h[15/Aug/2021 17:20:47] "GET /CR-list/ HTTP/1.1" 200 3254[0K[?25l
+[0K[?25h[15/Aug/2021 17:20:47] "GET /CR-list/ HTTP/1.1" 200 3254[0K[?25l
+[0K[?25h[15/Aug/2021 17:20:47] "GET /CR-list/ HTTP/1.1" 200 3254[0K[?25l
+[0K[?25h[15/Aug/2021 17:20:47] "GET /CR-list/ HTTP/1.1" 200 3254[0K[?25l
+[0K[?25h[15/Aug/2021 17:22:20] "GET /CR-list/ HTTP/1.1" 200 3223[0K[?25l
+[0K[?25h[15/Aug/2021 17:23:03] "GET /CR-list/ HTTP/1.1" 200 3238[0K[?25l
+[0K[?25h[15/Aug/2021 17:23:03] "GET /CR-list/ HTTP/1.1" 200 3238[0K[?25l
+[0K[?25h[15/Aug/2021 17:23:04] "GET /CR-list/ HTTP/1.1" 200 3238[0K[?25l
+[0K[?25h[15/Aug/2021 17:25:04] "GET /CR-list/ HTTP/1.1" 200 3249[0K[?25l
+[0K[?25h[15/Aug/2021 17:25:04] [0;32m"GET /favicon.ico HTTP/1.1" 301 0[0m[0K[?25l
+[0K[?25h[15/Aug/2021 17:26:46] "GET /CR-list/ HTTP/1.1" 200 3249[0K[?25l
+[0K[?25h[15/Aug/2021 17:26:47] "GET /CR-list/ HTTP/1.1" 200 3249[0K[?25l
+[0K[?25h[15/Aug/2021 17:26:47] "GET /CR-list/ HTTP/1.1" 200 3249[0K[?25l
+[0K[?25h[15/Aug/2021 17:26:47] "GET /CR-list/ HTTP/1.1" 200 3249[0K[?25l
+[0K[?25h[15/Aug/2021 17:26:48] "GET /CR-list/ HTTP/1.1" 200 3249[0K[?25l
+[0K[?25h[15/Aug/2021 17:26:48] "GET /CR-list/ HTTP/1.1" 200 3249[0K[?25l
+[0K[?25h[15/Aug/2021 17:27:17] "GET /CR-list/ HTTP/1.1" 200 3257[0K[?25l
+[0K[?25h[15/Aug/2021 17:27:39] "GET /CR-list/ HTTP/1.1" 200 3256[0K[?25l
+[0K[?25h[15/Aug/2021 17:28:01] "GET /CR-list/ HTTP/1.1" 200 3264[0K[?25l
+[0K[?25h[15/Aug/2021 17:28:14] "GET /CR-list/ HTTP/1.1" 200 3261[0K[?25l
+[0K[?25h[15/Aug/2021 17:28:19] "GET /CR-list/ HTTP/1.1" 200 3276[0K[?25l
+[0K[?25h[15/Aug/2021 17:28:32] "GET /CR-list/ HTTP/1.1" 200 3266[0K[?25l
+[0K[?25h[15/Aug/2021 17:28:33,009] - Broken pipe from ('127.0.0.1', 52459)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 17:28:51] "GET /newcr/ HTTP/1.1" 200 2677[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:22] "GET /CR-list/ HTTP/1.1" 200 3270[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:22] "GET /CR-list/ HTTP/1.1" 200 3270[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:22] "GET /CR-list/ HTTP/1.1" 200 3270[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:23] "GET /CR-list/ HTTP/1.1" 200 3270[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:24] "GET /newcr/ HTTP/1.1" 200 2691[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:49] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:50] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:50] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:50] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:50] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:50] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:51] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:51] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:51] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:51] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:51] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:51] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:52] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:52] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:52] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:52] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:52] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:53] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:29:53] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:30:20] "GET /CR-list/ HTTP/1.1" 200 3241[0K[?25l
+[0K[?25h[15/Aug/2021 17:30:21] "GET /CR-list/ HTTP/1.1" 200 3241[0K[?25l
+[0K[?25h[15/Aug/2021 17:30:31] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:30:33] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:31:56] "GET /CR-list/ HTTP/1.1" 200 3257[0K[?25l
+[0K[?25h[15/Aug/2021 17:32:01] "GET /CR-list/ HTTP/1.1" 200 3281[0K[?25l
+[0K[?25h[15/Aug/2021 17:34:27] "GET /CR-list/ HTTP/1.1" 200 3302[0K[?25l
+[0K[?25h[15/Aug/2021 17:34:27] [0;32m"GET /favicon.ico HTTP/1.1" 301 0[0m[0K[?25l
+[0K[?25h[15/Aug/2021 17:38:33] "GET /CR-list/ HTTP/1.1" 200 3289[0K[?25l
+[0K[?25h[15/Aug/2021 17:38:39] "GET /CR-list/ HTTP/1.1" 200 3288[0K[?25l
+[0K[?25h[15/Aug/2021 17:38:39] "GET /CR-list/ HTTP/1.1" 200 3288[0K[?25l
+[0K[?25h[15/Aug/2021 17:38:46] "GET /CR-list/ HTTP/1.1" 200 3285[0K[?25l
+[0K[?25h[15/Aug/2021 17:38:54] "GET /CR-list/ HTTP/1.1" 200 3287[0K[?25l
+[0K[?25h[15/Aug/2021 17:39:31] "GET /CR-list/ HTTP/1.1" 200 3225[0K[?25l
+[0K[?25h[15/Aug/2021 17:40:08] "GET /CR-list/ HTTP/1.1" 200 3246[0K[?25l
+[0K[?25h[15/Aug/2021 17:40:09] "GET /CR-list/ HTTP/1.1" 200 3246[0K[?25l
+[0K[?25h[15/Aug/2021 17:40:09] "GET /CR-list/ HTTP/1.1" 200 3246[0K[?25l
+[0K[?25h[15/Aug/2021 17:40:09] "GET /CR-list/ HTTP/1.1" 200 3246[0K[?25l
+[0K[?25h[15/Aug/2021 17:40:10] "GET /CR-list/ HTTP/1.1" 200 3246[0K[?25l
+[0K[?25h[15/Aug/2021 17:40:17] "GET /CR-list/ HTTP/1.1" 200 3247[0K[?25l
+[0K[?25h[?25l[15/Aug/2021 17:40:18] "GET /CR-list/ HTTP/1.1" 200 3247[0K[24G[?25h[?25l
+[0K[?25h[15/Aug/2021 17:40:18] "GET /CR-list/ HTTP/1.1" 200 3247[0K[?25l
+[0K[?25h[15/Aug/2021 17:40:18] "GET /CR-list/ HTTP/1.1" 200 3247[0K[?25l
+[0K[?25h[15/Aug/2021 17:40:18] "GET /CR-list/ HTTP/1.1" 200 3247[0K[?25l
+[0K[?25h[15/Aug/2021 17:40:19] "GET /CR-list/ HTTP/1.1" 200 3247[0K[?25l
+[0K[?25h[15/Aug/2021 17:40:27] "GET /CR-list/ HTTP/1.1" 200 3225[0K[?25l
+[0K[?25h[15/Aug/2021 17:42:14] "GET /CR-list/ HTTP/1.1" 200 3225[0K[?25l
+[0K[?25h[15/Aug/2021 17:42:57] "GET /CR-list/ HTTP/1.1" 200 3251[0K[?25l
+[0K[?25h[15/Aug/2021 17:43:30] "GET /CR-list/ HTTP/1.1" 200 3251[0K[?25l
+[0K[?25h[15/Aug/2021 17:44:19] "GET /CR-list/ HTTP/1.1" 200 3287[0K[?25l
+[0K[?25h[15/Aug/2021 17:46:20] "GET /CR-list/ HTTP/1.1" 200 3397[0K[?25l
+[0K[?25h[15/Aug/2021 17:46:20,761] - Broken pipe from ('127.0.0.1', 65532)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 17:46:45] "GET /CR-list/ HTTP/1.1" 200 3368[0K[?25l
+[0K[?25h[15/Aug/2021 17:46:59] "GET /CR-list/ HTTP/1.1" 200 3397[0K[?25l
+[0K[?25h[15/Aug/2021 17:47:15] "GET /CR-list/ HTTP/1.1" 200 3397[0K[?25l
+[0K[?25h[15/Aug/2021 17:47:35] "GET /CR-list/ HTTP/1.1" 200 3403[0K[?25l
+[0K[?25h[15/Aug/2021 17:47:51] "GET /CR-list/ HTTP/1.1" 200 3397[0K[?25l
+[0K[?25h[15/Aug/2021 17:48:21] "GET /CR-list/ HTTP/1.1" 200 3345[0K[?25l
+[0K[?25h[15/Aug/2021 17:48:32] "GET /CR-list/ HTTP/1.1" 200 3300[0K[?25l
+[0K[?25h[15/Aug/2021 17:48:52] "GET /CR-list/ HTTP/1.1" 200 3300[0K[?25l
+[0K[?25h[15/Aug/2021 17:49:09] "GET /CR-list/ HTTP/1.1" 200 3291[0K[?25l
+[0K[?25h[15/Aug/2021 17:50:42] "GET /CR-list/ HTTP/1.1" 200 3300[0K[?25l
+[0K[?25h[15/Aug/2021 17:50:43] "GET /GC-list/ HTTP/1.1" 200 2396[0K[?25l
+[0K[?25h[15/Aug/2021 17:50:44] "GET /RDC-list/ HTTP/1.1" 200 1729[0K[?25l
+[0K[?25h[15/Aug/2021 17:50:46] "GET /CR-list/ HTTP/1.1" 200 3300[0K[?25l
+[0K[?25h[15/Aug/2021 17:50:52] "GET /GC-list/ HTTP/1.1" 200 2396[0K[?25l
+[0K[?25h[15/Aug/2021 17:50:54] "GET /GC-list/ HTTP/1.1" 200 2396[0K[?25l
+[0K[?25h[15/Aug/2021 17:50:54] "GET /RDC-list/ HTTP/1.1" 200 1729[0K[?25l
+[0K[?25h[15/Aug/2021 17:50:55] "GET /CR-list/ HTTP/1.1" 200 3300[0K[?25l
+[0K[?25h[15/Aug/2021 17:50:56] "GET /GC-list/ HTTP/1.1" 200 2396[0K[?25l
+[0K[?25h[15/Aug/2021 17:50:57] "GET /RDC-list/ HTTP/1.1" 200 1729[0K[?25l
+[0K[?25h[15/Aug/2021 17:50:57] "GET /GC-list/ HTTP/1.1" 200 2396[0K[?25l
+[0K[?25h[15/Aug/2021 17:51:03] "GET /RDC-list/ HTTP/1.1" 200 1729[0K[?25l
+[0K[?25h[15/Aug/2021 17:51:05] "GET /CR-list/ HTTP/1.1" 200 3300[0K[?25l
+[0K[?25h[15/Aug/2021 17:51:17] "GET /GC-list/ HTTP/1.1" 200 2396[0K[?25l
+[0K[?25h[15/Aug/2021 17:51:17] "GET /RDC-list/ HTTP/1.1" 200 1729[0K[?25l
+[0K[?25h[15/Aug/2021 17:51:18] "GET /CR-list/ HTTP/1.1" 200 3300[0K[?25l
+[0K[?25h[15/Aug/2021 17:51:19] "GET /GC-list/ HTTP/1.1" 200 2396[0K[?25l
+[0K[?25h[15/Aug/2021 17:51:20] "GET /CR-list/ HTTP/1.1" 200 3300[0K[?25l
+[0K[?25h[15/Aug/2021 17:51:54] "GET /GC-list/ HTTP/1.1" 200 2396[0K[?25l
+[0K[?25h[15/Aug/2021 17:51:57] "GET /RDC-list/ HTTP/1.1" 200 1729[0K[?25l
+[0K[?25h[15/Aug/2021 17:51:57] "GET /CR-list/ HTTP/1.1" 200 3300[0K[?25l
+[0K[?25h[15/Aug/2021 17:51:59] "GET /GC-list/ HTTP/1.1" 200 2396[0K[?25l
+[0K[?25h[15/Aug/2021 17:52:00] "GET /CR-list/ HTTP/1.1" 200 3300[0K[?25l
+[0K[?25h[15/Aug/2021 17:52:01] "GET /RDC-list/ HTTP/1.1" 200 1729[0K[?25l
+[0K[?25h[15/Aug/2021 17:52:02] "GET /RDC-list/ HTTP/1.1" 200 1729[0K[?25l
+[0K[?25h[15/Aug/2021 17:52:04] "GET /uhn9Jay/ HTTP/1.1" 200 1900[0K[?25l
+[0K[?25h[15/Aug/2021 17:52:12] [0;32m"GET /favicon.ico HTTP/1.1" 301 0[0m[0K[?25l
+[15/Aug/2021 17:52:12,059] - Broken pipe from ('127.0.0.1', 49155)[0K
+[0K
+[0K[?25h[15/Aug/2021 17:52:14] "GET /GC-list/ HTTP/1.1" 200 2396[0K[?25l
+[0K[?25h[15/Aug/2021 17:53:01] "GET /RDC-list/ HTTP/1.1" 200 1729[0K[?25l
+[0K[?25h[15/Aug/2021 17:53:02,029] - Broken pipe from ('127.0.0.1', 49184)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 17:53:02] "GET /CR-list/ HTTP/1.1" 200 3300[0K[?25l
+[0K[?25h[15/Aug/2021 18:00:46] "GET /GC-list/ HTTP/1.1" 200 2396[0K[?25l
+[0K[?25h[15/Aug/2021 18:00:47] "GET /RDC-list/ HTTP/1.1" 200 1729[0K[?25l
+[0K[?25h[15/Aug/2021 18:00:54] "GET /CR-list/ HTTP/1.1" 200 3300[0K[?25l
+[0K[?25h[15/Aug/2021 18:00:56] "GET /RDC-list/ HTTP/1.1" 200 1729[0K[?25l
+[0K[?25h[15/Aug/2021 18:00:59] "GET /GC-list/ HTTP/1.1" 200 2396[0K[?25l
+[0K[?25h[15/Aug/2021 18:01:02] "GET /CR-list/ HTTP/1.1" 200 3300[0K[?25l
+[0K[?25h[15/Aug/2021 18:01:05] "GET /edit_cr/2/ HTTP/1.1" 200 2734[0K[?25l
+[0K[?25h[15/Aug/2021 18:03:54] "GET /edit_cr/2/ HTTP/1.1" 200 2734[0K[?25l
+[0K[?25h[15/Aug/2021 18:04:03] [0;32m"POST /edit_cr/2/ HTTP/1.1" 302 0[0m[0K[?25l
+[15/Aug/2021 18:04:03] "GET /CR-list/ HTTP/1.1" 200 3307[0K
+[0K[?25h[15/Aug/2021 18:04:06] "GET /edit_cr/3/ HTTP/1.1" 200 2742[0K[?25l
+[0K[?25h[15/Aug/2021 18:04:11] [0;32m"POST /edit_cr/3/ HTTP/1.1" 302 0[0m[0K[?25l
+[15/Aug/2021 18:04:11] "GET /CR-list/ HTTP/1.1" 200 3306[0K
+[0K[?25h[15/Aug/2021 18:04:15] "GET /edit_cr/4/ HTTP/1.1" 200 2735[0K[?25l
+[0K[?25h[15/Aug/2021 18:04:17] [0;32m"POST /edit_cr/4/ HTTP/1.1" 302 0[0m[0K[?25l
+[15/Aug/2021 18:04:17] "GET /CR-list/ HTTP/1.1" 200 3312[0K
+[0K[?25h[15/Aug/2021 18:04:21] "GET /edit_cr/5/ HTTP/1.1" 200 2747[0K[?25l
+[0K[?25h[15/Aug/2021 18:04:27] [0;32m"POST /edit_cr/5/ HTTP/1.1" 302 0[0m[0K[?25l
+[15/Aug/2021 18:04:27][0K[1G[?25h[15/Aug/2021 18:04:27] "GET /CR-list/ HTTP/1.1" 200 3306[0K[?25l
+[0K[?25h[15/Aug/2021 18:04:30] "GET /edit_cr/6/ HTTP/1.1" 200 2739[0K[?25l
+[0K[?25h[15/Aug/2021 18:04:33] [0;32m"POST /edit_cr/6/ HTTP/1.1" 302 0[0m[0K[?25l
+[0K[?25h[15/Aug/2021 18:04:33] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[?25l[15/Aug/2021 18:08:20] "GET /GC-list/ HTTP/1.1" 200 2396[0K[1G[?25h[?25l
+[0K[?25h[?25l[15/Aug/2021 18:08:21] "GET /RDC-list/ HTTP/1.1" 200 1729[0K[1G[?25h[?25l
+[0K[?25h[15/Aug/2021 18:08:22] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[15/Aug/2021 18:08:27] "GET /edit_cr/2/ HTTP/1.1" 200 2741[0K[?25l
+[0K[?25h[15/Aug/2021 18:08:31] "GET /GC-list/ HTTP/1.1" 200 2396[0K[?25l
+[0K[?25h[15/Aug/2021 18:08:33] "GET /uhn6trent/ HTTP/1.1" 200 1450[0K[?25l
+[0K[?25h[15/Aug/2021 18:08:35] "GET /RDC-list/ HTTP/1.1" 200 1729[0K[?25l
+[0K[?25h[15/Aug/2021 18:08:41] "GET /uhn9Jay/ HTTP/1.1" 200 1900[0K[?25l
+[0K[?25h[15/Aug/2021 18:08:49] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[15/Aug/2021 18:08:56] "GET /GC-list/ HTTP/1.1" 200 2396[0K[?25l
+[0K[?25h[15/Aug/2021 18:08:57] "GET /RDC-list/ HTTP/1.1" 200 1729[0K[?25l
+[0K[?25h[15/Aug/2021 18:08:58] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[15/Aug/2021 18:08:59] "GET /GC-list/ HTTP/1.1" 200 2396[0K[?25l
+[0K[?25h[15/Aug/2021 18:09:43] "GET /GC-list/ HTTP/1.1" 200 2541[0K[?25l
+[0K[?25h[15/Aug/2021 18:10:04] "GET /RDC-list/ HTTP/1.1" 200 1879[0K[?25l
+[0K[?25h[15/Aug/2021 18:10:08] "GET /newcr/ HTTP/1.1" 200 2721[0K[?25l
+[0K[?25h[15/Aug/2021 18:10:34] "GET /newcr/ HTTP/1.1" 200 2721[0K[?25l
+[0K[?25h[15/Aug/2021 18:10:40] "GET /GC-list/ HTTP/1.1" 200 2540[0K[?25l
+[0K[?25h[15/Aug/2021 18:10:43] "GET /RDC-list/ HTTP/1.1" 200 1873[0K[?25l
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py changed, reloading.[0K[?25l
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 18:11:59[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\forms.py changed, reloading.[0K[?25l
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+Exception in thread django-main-thread:[0K
+Traceback (most recent call last):[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\threading.py", line 932, in _bootstrap_inner[0K
+    self.run()[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\threading.py", line 870, in run[0K
+    self._target(*self._args, **self._kwargs)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\utils\autoreload.py", line 64, in wrapper[0K
+    fn(*args, **kwargs)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\management\commands\runserver.py", line 118, in inner_run[0K
+    self.check(display_num_errors=True)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\management\base.py", line 419, in check[0K
+    all_issues = checks.run_checks([0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\checks\registry.py", line 76, in run_checks[0K
+    new_errors = check(app_configs=app_configs, databases=databases)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 13, in check_url_config[0K
+    return check_resolver(resolver)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\checks\urls.py", line 23, in check_resolver[0K
+    return check_method()[0K[?25h[?25l
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 412, in check[0K
+    for pattern in self.url_patterns:[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\utils\functional.py", line 48, in __get__[0K
+    res = instance.__dict__[self.name] = self.func(instance)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 598, in url_patterns[0K
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\utils\functional.py", line 48, in __get__[0K
+    res = instance.__dict__[self.name] = self.func(instance)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 591, in urlconf_module[0K
+    return import_module(self.urlconf_name)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\importlib\__init__.py", line 127, in import_module[0K
+    return _bootstrap._gcd_import(name[level:], package, level)[0K
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import[0K
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load[0K
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked[0K
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked[0K
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module[0K
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed[0K
+  File "C:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\neohikitsugi\urls.py", line 18, in <module>[0K
+    from pages import views[0K
+  File "C:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py", line 3, in <module>[0K
+    from .forms import PostForm,CrForm[0K
+  File "C:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\forms.py", line 23, in <module>[0K
+    class ClusterForm(Cluster):[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\db\models\base.py", line 122, in __new__[0K
+    new_class.add_to_class('_meta', Options(meta, app_label))[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\db\models\base.py", line 326, in add_to_class[0K
+    value.contribute_to_class(cls, name)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\db\models\options.py", line 199, in contribute_to_class[0K
+    raise TypeError("'class Meta' got invalid attribute(s): %s" % ','.join(meta_attrs))[0K
+TypeError: 'class Meta' got invalid attribute(s): model[0K
+[0K[?25h(base) ([91m♥[0m‿[91m♥[0m) > ^C
+(base) ([34mT[0m_[34mT[0m) > [C[11Preverse-i-search)`':[Cr': python manage.py runserver[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@u[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@base) ([34mT[0m_[34mT[0m) >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[0m[0KWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 18:18:24[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25hNot Found: /[0K[?25l
+[15/Aug/2021 18:18:28] [0;33m"GET / HTTP/1.1" 404 3816[0m[0K
+[0K[?25h[15/Aug/2021 18:18:28,285] - Broken pipe from ('127.0.0.1', 64229)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 18:18:33] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 18:18:35] "GET /newccluster/ HTTP/1.1" 200 2189[0K[?25l
+[0K[?25hForbidden (CSRF token missing or incorrect.): /newccluster/[0K[?25l
+[15/Aug/2021 18:19:41] [0;31;91m"POST /newccluster/ HTTP/1.1" 403 2519[0m[0K
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py changed, reloading.[0K[?25l
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 18:21:01[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py changed, reloading.[0K[?25l
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 18:23:05[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25hForbidden (CSRF token missing or incorrect.): /newccluster/[0K[?25l
+[15/Aug/2021 19:38:13] [0;31;91m"POST /newccluster/ HTTP/1.1" 403 2519[0m[0K
+[0K[?25h[15/Aug/2021 19:38:13,392] - Broken pipe from ('127.0.0.1', 50245)[0K[?25l
+[0K
+[0K[?25h[15/Aug/2021 19:38:16] "GET /newccluster/ HTTP/1.1" 200 2207[0K[?25l
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\forms.py changed, reloading.[0K[?25l
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 19:38:55[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25h[15/Aug/2021 19:39:10] "GET /newccluster/ HTTP/1.1" 200 2313[0K[?25l
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py changed, reloading.[0K[?25l
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K[1G[?25h[?25l
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 19:41:33[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py changed, reloading.[0K[?25l
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+[0K[?25hPerforming system checks...[0K[?25l
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 19:41:35[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\models.py changed, reloading.[0K[?25l
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 19:43:15[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py changed, reloading.[0K[?25l
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 19:43:54[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py changed, reloading.[0K[?25l
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 19:44:09[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25huhn6trent[0K[?25l
+[0K[?25hInternal Server Error: /newccluster/[0K[?25l
+Traceback (most recent call last):[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\handlers\exception.py", line 47, in inner[0K
+    response = get_response(request)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response[0K
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)[0K
+  File "C:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py", line 108, in CreateCluster[0K
+    return redirect('home')[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\shortcuts.py", line 41, in redirect[0K
+    return redirect_class(resolve_url(to, *args, **kwargs))[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\shortcuts.py", line 130, in resolve_url[0K
+    return reverse(to, args=args, kwargs=kwargs)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\urls\base.py", line 86, in reverse[0K
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix[0K
+    raise NoReverseMatch(msg)[0K
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.[0K
+[15/Aug/2021 19:44:26] [0;35;95m"POST /newccluster/ HTTP/1.1" 500 93218[0m[0K
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py changed, reloading.[0K[?25l
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 19:45:10[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25h[?25l[37AC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py change[0Kd
+, reloading.[0K
+Watching for file changes with StatReloader[0K
+Performing system checks...[0K
+[0K
+System check identified no issues (0 silenced).[0K
+August 15, 2021 - 19:44:09[0K
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+uhn6trent[0K
+Internal Server Error: /newccluster/[0K
+Traceback (most recent call last):[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\hand[0Kl
+ers\exception.py", line 47, in inner[0K
+    response = get_response(request)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\hand[0Kl
+ers\base.py", line 181, in _get_response[0K
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)[0K
+  File "C:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.p[0Ky
+", line 108, in CreateCluster[0K
+    return redirect('home')[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\shortcuts[0K.
+py", line 41, in redirect[0K
+    return redirect_class(resolve_url(to, *args, **kwargs))[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\shortcuts[0K.
+py", line 130, in resolve_url[0K
+    return reverse(to, args=args, kwargs=kwargs)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\urls\base[0K.
+py", line 86, in reverse[0K
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\urls\reso[0Kl
+vers.py", line 694, in _reverse_with_prefix[0K
+    raise NoReverseMatch(msg)[0K
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is [0Kn
+ot a valid view function or pattern name.[0K
+[15/Aug/2021 19:44:26] [0;35;95m"POST /newccluster/ HTTP/1.1" 500 93218[0K
+[0mC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py change[0Kd
+, reloading.[0K
+Watching for file changes with StatReloader[0K
+Performing system checks...[0K
+[0K
+System check identified no issues (0 silenced).[0K
+August 15, 2021 - 19:45:10[0K
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25h[?25l[23A    return redirect_class(resolve_url(to, *args, **kwargs))[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\shortcuts.py"[0K,
+ line 130, in resolve_url[0K
+    return reverse(to, args=args, kwargs=kwargs)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\urls\base.py"[0K,
+ line 86, in reverse[0K
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\urls\resolver[0Ks
+.py", line 694, in _reverse_with_prefix[0K
+    raise NoReverseMatch(msg)[0K
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not [0Ka
+ valid view function or pattern name.[0K
+[15/Aug/2021 19:44:26] [0;35;95m"POST /newccluster/ HTTP/1.1" 500 93218[0K
+[0mC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py changed, r[0Ke
+loading.[0K
+Watching for file changes with StatReloader[0K
+Performing system checks...[0K
+[0K
+System check identified no issues (0 silenced).[0K
+August 15, 2021 - 19:45:10[0K
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25hR[0K[?25l
+[0K[?25hInternal Server Error: /newccluster/[0K[?25l
+Traceback (most recent call last):[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\handlers[0K\
+exception.py", line 47, in inner[0K
+    response = get_response(request)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\handlers[0K\
+base.py", line 181, in _get_response[0K
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)[0K
+  File "C:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py", [0Kl
+ine 108, in CreateCluster[0K
+    return redirect('home')[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\shortcuts.py"[0K,
+ line 41, in redirect[0K
+    return redirect_class(resolve_url(to, *args, **kwargs))[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\shortcuts.py"[0K,
+ line 130, in resolve_url[0K
+    return reverse(to, args=args, kwargs=kwargs)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\urls\base.py"[0K,
+ line 86, in reverse[0K
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\urls\resolver[0Ks
+.py", line 694, in _reverse_with_prefix[0K
+    raise NoReverseMatch(msg)[0K
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not [0Ka
+ valid view function or pattern name.[0K
+[15/Aug/2021 19:45:21] [0;35;95m"POST /newccluster/ HTTP/1.1" 500 93218[0m[0K
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py changed, r[0Ke[?25l
+loading.[0K
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 19:47:24[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py changed, r[0Ke[?25l
+loading.[0K
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+[0K[?25hPerforming system checks...[0K[?25l
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 19:47:54[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py changed, r[0Ke[?25l
+loading.[0K
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 19:48:38[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py changed, r[0Ke[?25l
+loading.[0K
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25hAugust 15, 2021 - 19:48:41[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25h[15/Aug/2021 19:48:46] [0;32m"POST /newccluster/ HTTP/1.1" 302 0[0m[0K[?25l
+[0K[?25h[15/Aug/2021 19:48:46] "GET /RDC-list/ HTTP/1.1" 200 2881[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:05] "GET /admin/ HTTP/1.1" 200 7420[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:05] "GET /static/admin/css/base.css HTTP/1.1" 200 19513[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:05] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380[0K[?25l
+[15/Aug/2021 19:49:05] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360[0K
+[15/Aug/2021 19:49:05] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423[0K
+[15/Aug/2021 19:49:05] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545[0K
+[15/Aug/2021 19:49:05] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271[0K
+[0K[?25h[15/Aug/2021 19:49:05] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331[0K[?25l
+[15/Aug/2021 19:49:05] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380[0K
+[15/Aug/2021 19:49:05] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392[0K
+[15/Aug/2021 19:49:05] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1"[0K
+200 85692[0K
+[15/Aug/2021 19:49:05][0K[24G[?25h[?25l[15/Aug/2021 19:49:05] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.[0K1
+" 200 85876[0K
+[15/Aug/2021 19:49:05] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" [0K2
+00 86184[0K
+[0K[?25h[15/Aug/2021 19:49:08] "GET /admin/pages/cluster/ HTTP/1.1" 200 7895[0K[?25l
+[0K[?25h[?25l[15/Aug/2021 19:49:08] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874[0K[24G[?25h[?25l
+[15/Aug/2021 19:49:08] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347[0K
+[15/Aug/2021 19:49:08] "GET /static/admin/js/core.js HTTP/1.1" 200 5698[0K
+[15/Aug/2021 19:49:08] "GET /static/admin/js/actions.js HTTP/1.1" 200 7664[0K
+[15/Aug/2021 19:49:08] "GET /admin/jsi18n/ HTTP/1.1" 200 3195[0K
+[15/Aug/2021 19:49:08] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1[0K"
+ 200 5984[0K
+[15/Aug/2021 19:49:08] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902[0K
+[15/Aug/2021 19:49:08] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531[0K
+[15/Aug/2021 19:49:08] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 [0K2
+87630[0K
+[15/Aug/2021 19:49:08][0K[1G[?25h[15/Aug/2021 19:49:08] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 20[0K0[?25l
+ 232381[0K
+[0K[?25h[15/Aug/2021 19:49:08] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:17] "POST /admin/pages/cluster/ HTTP/1.1" 200 5870[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:18] "GET /static/admin/js/cancel.js HTTP/1.1" 200 884[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:19] [0;32m"POST /admin/pages/cluster/ HTTP/1.1" 302 0[0m[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:19] "GET /admin/pages/cluster/ HTTP/1.1" 200 7406[0K[?25l
+[15/Aug/2021 19:49:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3195[0K
+[0K[?25h[15/Aug/2021 19:49:19] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:24] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:31] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:31] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:32] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:32] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:32] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:32] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:33] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:33] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:33] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:33] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:33] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:34] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:34] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:34] "GET /GC-list/ HTTP/1.1" 200 2552[0K[?25l
+[0K[?25h[15/Aug/2021 19:49:37] "GET /RDC-list/ HTTP/1.1" 200 1873[0K[?25l
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py changed, r[0Ke[?25l
+loading.[0K
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+[0K[?25hSystem check identified no issues (0 silenced).[0K[?25l
+[0K[?25h[?25lAugust 15, 2021 - 19:49:54[0K[1G[?25h[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25hC:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py changed, r[0Ke[?25l
+loading.[0K
+[0K[?25hWatching for file changes with StatReloader[0K[?25l
+Performing system checks...[0K
+[0K
+[0K[?25h[?25lSystem check identified no issues (0 silenced).[0K[1G[?25h[?25l
+[0K[?25hAugust 15, 2021 - 19:49:56[0K[?25l
+Django version 3.2.6, using settings 'neohikitsugi.settings'[0K
+Starting development server at http://127.0.0.1:8000/[0K
+Quit the server with CTRL-BREAK.[0K
+[0K[?25h[15/Aug/2021 19:53:48] "GET /RDC-list/ HTTP/1.1" 200 1885[0K[?25l
+[0K[?25h[15/Aug/2021 19:53:48] "GET /newccluster/ HTTP/1.1" 200 2313[0K[?25l
+[0K[?25h[15/Aug/2021 19:54:08] [0;32m"POST /newccluster/ HTTP/1.1" 302 0[0m[0K[?25l
+[0K[?25h[15/Aug/2021 19:54:08] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[15/Aug/2021 19:54:38] "GET /newccluster/ HTTP/1.1" 200 2430[0K[?25l
+[0K[?25h[15/Aug/2021 19:54:59] "GET /newccluster/ HTTP/1.1" 200 2430[0K[?25l
+[0K[?25h[?25l[15/Aug/2021 19:55:05] "GET /newccluster/ HTTP/1.1" 200 2430[0K[1G[?25h[?25l
+[0K[?25h[15/Aug/2021 20:37:00] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[15/Aug/2021 20:37:00,737] - Broken pipe from ('127.0.0.1', 52416)[0K[?25l
+[0K
+[0K[?25hInternal Server Error: /favicon.ico/[0K[?25l
+Traceback (most recent call last):[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\handlers[0K\
+exception.py", line 47, in inner[0K
+    response = get_response(request)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\core\handlers[0K\
+base.py", line 181, in _get_response[0K
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)[0K
+  File "C:\Users\ts-trent.shintani\programs\project\neo_hikitsugi\pages\views.py", [0Kl
+ine 60, in ViewPost[0K
+    cluster_code = Cluster.objects.get(cluster_code=cluster_code)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\db\models\man[0Ka
+ger.py", line 85, in manager_method[0K
+    return getattr(self.get_queryset(), name)(*args, **kwargs)[0K
+  File "C:\Users\ts-trent.shintani\Anaconda3\lib\site-packages\django\db\models\que[0Kr
+y.py", line 435, in get[0K
+    raise self.model.DoesNotExist([0K
+pages.models.Cluster.DoesNotExist: Cluster matching query does not exist.[0K
+[15/Aug/2021 20:37:00,838] - Broken pipe from ('127.0.0.1', 52417)[0K
+[0K
+[0K[?25h[15/Aug/2021 20:37:05] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[15/Aug/2021 20:37:06] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[15/Aug/2021 20:37:56] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[15/Aug/2021 20:37:58] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[15/Aug/2021 20:37:59] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[15/Aug/2021 20:38:33] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[15/Aug/2021 20:38:34] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[15/Aug/2021 20:38:38] "GET /uhn6yuuka/ HTTP/1.1" 200 1450[0K[?25l
+[0K[?25h[15/Aug/2021 20:38:45] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[15/Aug/2021 20:38:47] "GET /newccluster/ HTTP/1.1" 200 2430[0K[?25l
+[0K[?25h[15/Aug/2021 20:41:52] "GET /newccluster/ HTTP/1.1" 200 2434[0K[?25l
+[0K[?25h[15/Aug/2021 20:42:00] "GET /newccluster/ HTTP/1.1" 200 2434[0K[?25l
+[0K[?25h[15/Aug/2021 20:42:34] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[15/Aug/2021 20:42:35] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[15/Aug/2021 20:42:36] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[15/Aug/2021 20:42:38] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[15/Aug/2021 20:42:39] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[15/Aug/2021 20:42:40] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[15/Aug/2021 21:44:45] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[15/Aug/2021 21:44:46] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[15/Aug/2021 21:44:48] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[15/Aug/2021 21:44:59] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[15/Aug/2021 21:44:59] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[15/Aug/2021 21:45:49] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[15/Aug/2021 21:45:52] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[15/Aug/2021 21:45:58] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[15/Aug/2021 21:46:01] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[16/Aug/2021 00:42:54] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[16/Aug/2021 00:42:54] [0;32m"GET /favicon.ico HTTP/1.1" 301 0[0m[0K[?25l
+[16/Aug/2021 00:42:54,163] - Broken pipe from ('127.0.0.1', 52696)[0K
+[0K
+[0K[?25h[16/Aug/2021 00:42:56] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[16/Aug/2021 00:42:56] [0;32m"GET /favicon.ico HTTP/1.1" 301 0[0m[0K[?25l
+[16/Aug/2021 00:42:56,134] - Broken pipe from ('127.0.0.1', 52697)[0K
+[0K
+[0K[?25h[16/Aug/2021 00:42:57] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[16/Aug/2021 00:44:30] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[16/Aug/2021 00:44:32] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[16/Aug/2021 00:44:33] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[16/Aug/2021 00:44:36] "GET /newccluster/ HTTP/1.1" 200 2434[0K[?25l
+[0K[?25h[16/Aug/2021 00:44:40] "GET /uhn6hiroko/ HTTP/1.1" 200 1452[0K[?25l
+[0K[?25h[16/Aug/2021 00:44:46] "GET /uhn6trent/ HTTP/1.1" 200 1450[0K[?25l
+[0K[?25h[16/Aug/2021 00:44:49] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[16/Aug/2021 00:44:52] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[16/Aug/2021 00:45:03] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[16/Aug/2021 00:45:05] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[16/Aug/2021 00:45:10] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[16/Aug/2021 00:45:43] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[16/Aug/2021 00:45:43] [0;32m"GET /favicon.ico HTTP/1.1" 301 0[0m[0K[?25l
+[16/Aug/2021 00:45:43,683] - Broken pipe from ('127.0.0.1', 52699)[0K
+[0K
+[0K[?25h[16/Aug/2021 00:45:45] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[16/Aug/2021 00:45:51] "GET /uhn9hiroko/ HTTP/1.1" 200 1452[0K[?25l
+[0K[?25h[16/Aug/2021 00:45:52] "GET /uhn9hiroko/newpost/ HTTP/1.1" 200 2065[0K[?25l
+[0K[?25h[16/Aug/2021 00:45:54] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[16/Aug/2021 00:45:56] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[16/Aug/2021 00:45:58] "GET /uhn9Jay/ HTTP/1.1" 200 1900[0K[?25l
+[0K[?25h[16/Aug/2021 00:46:13] "GET /uhn9Jay/newpost/ HTTP/1.1" 200 2065[0K[?25l
+[0K[?25h[16/Aug/2021 00:46:16] "GET /edit_post/55/ HTTP/1.1" 200 2184[0K[?25l
+[0K[?25h[16/Aug/2021 00:46:20] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[16/Aug/2021 00:47:46] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[16/Aug/2021 00:48:19] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[16/Aug/2021 00:48:20] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[16/Aug/2021 00:48:21] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[16/Aug/2021 00:48:22] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[16/Aug/2021 00:48:23] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[16/Aug/2021 00:48:24] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h[16/Aug/2021 00:48:27] "GET /RDC-list/ HTTP/1.1" 200 2223[0K[?25l
+[0K[?25h[16/Aug/2021 00:48:29] "GET /CR-list/ HTTP/1.1" 200 3307[0K[?25l
+[0K[?25h[16/Aug/2021 00:48:30] "GET /GC-list/ HTTP/1.1" 200 2557[0K[?25l
+[0K[?25h(base) ([91m♥[0m‿[91m♥[0m) > ^C
+(base) ([34mT[0m_[34mT[0m) > ^C
+(base) ([34mT[0m_[34mT[0m) > ^C
+(base) ([34mT[0m_[34mT[0m) > ^C
+(base) ([34mT[0m_[34mT[0m) > exit
+
+Script done on 2021-08-16 00:48:52+09:00 [COMMAND_EXIT_CODE="130"]

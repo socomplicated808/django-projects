@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<p><a href="{% url 'new-cr' %}" style="background-color: #FF018C;text-decoration:none;color:#ffffff;padding:5px 10px;border-radius:15px">Add New CR</a></p>
+	<p></p>
+	<table class="table table-hover">
+		<tr style="color:#FF018C">
+			<th>CR number</th>
+			<th>Start Date</th>
+			<th>Start Time</th>
+			<th>End Date</th>
+			<th>End Time</th>
+			<th>Status</th>
+		</tr>
+	
+	{% for cr in crs %}
+		{% if cr.get_status_display != 'Closed' %}
+			{% if cr.get_status_display == 'Security' or cr.get_status_display == 'SXC' %}
+			<tr style="background-color: #ffdeeb">
+				<td>{{ cr.cr_number }}</td>
+				<td>{{ cr.start_date }}</td>
+				<td>{{ cr.start_time }}</td>
+				<td>{{ cr.end_date }}</td>
+				<td>{{ cr.end_time }}</td>
+				<td>{{ cr.get_status_display}}</td>
+				<td><a href="{% url 'edit-cr' cr.id %}" style="color:#FF018C;text-decoration:none;border-radius:15px;padding:0px 10px;border:1px solid #FF018C">Edit</a></td>
+			</tr>
+			{% else %}
+				<tr>
+				<td>{{ cr.cr_number }}</td>
+				<td>{{ cr.start_date }}</td>
+				<td>{{ cr.start_time }}</td>
+				<td>{{ cr.end_date }}</td>
+				<td>{{ cr.end_time }}</td>
+				<td>{{ cr.get_status_display}}</td>
+				<td><a href="{% url 'edit-cr' cr.id %}" style="color:#FF018C;text-decoration:none;border-radius:15px;padding:0px 10px;border:1px solid #FF018C">Edit</a></td>
+				</tr>
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+	</table>
+{% endblock content %}

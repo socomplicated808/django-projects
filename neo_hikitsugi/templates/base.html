@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hikitsugi-kun v2.0</title>
+	<style>
+		ul {
+			list-style-type:none;
+			overflow: hidden;
+			margin: 0;
+			padding: 0;
+			top: 0;
+			width: 100%;
+			background-color: #ffdeeb;
+		}
+
+		li {
+			float: left;
+			border-right: 1px solid #ffffff;
+		}
+
+		li a {
+			display: block;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover:not(.active) {
+			background-color: #FF018C;
+		}
+
+
+	</style>
+</head>
+<body>
+		<ul>
+			<li><a href="{% url 'gc-list' %}">GC</a></li>
+			<li><a href="{% url 'rdc-list' %}">RDC</a></li>
+			<li><a href="{% url 'cr-list' %}">CR</a></li>
+		</ul>
+	<div style="color:#FF018C;padding:20px 20px">
+		{% block content %}
+		
+		{% endblock content %}
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+</body>
+</html>
+

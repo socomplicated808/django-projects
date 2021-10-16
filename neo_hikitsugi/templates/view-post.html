@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	{{cluster_code.cluster_code}} OS/Robin Installation <a href="{% url 'new-post' cluster_code.cluster_code %}" style="background-color: #FF018C;text-decoration:none;color:#ffffff;padding:5px 10px;border-radius:15px">Add New Post</a>
+
+	{% for post in posts %}
+		<hr>
+		<p>{{ post.name }} {{ post.time }}</p>
+		<p>{{ post.cluster_log | linebreaks }}</p>
+		{% if post.files %}
+			<a href="{{ post.files.url }}" download>{{ post.filename }}</a>
+		{% endif %}
+		<p><a href="{% url 'edit-post' post.id %}">Edit</a></p>
+	{% endfor %}
+
+{% endblock content %}

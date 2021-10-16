@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<form method="POST">
+		{% csrf_token %}
+		{{ form.as_p }}
+		<input type="submit" value="Create" style="background-color: #FF018C;text-decoration:none;color:#ffffff;padding:0px 10px 3px;border-radius:15px;border:none">
+	</form>
+{% endblock content %}

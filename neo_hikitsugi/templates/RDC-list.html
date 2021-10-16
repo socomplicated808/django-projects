@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<p><a href="{% url 'new-cluster' %}" style="background-color: #FF018C;text-decoration:none;color:#ffffff;padding:5px 10px;border-radius:15px">Add New Cluster</a></p>
+	<table class="table table-hover">
+		<tr style="color:#FF018C">
+			<th>Cluster</th>
+			<th>Jira</th>
+		</tr>
+	{% for rdc in rdcs %}
+		{% if rdc.get_cluster_type_display == "RDC" and rdc.get_cluster_status_display != "Closed" %}
+			<tr>
+				<th><a href="{% url 'view-post' rdc.cluster_code %}" style="color:#FF018C;text-decoration:none;border-radius:15px;padding:0px 10px;border:1px solid #FF018C">{{ rdc.cluster_code }}</a></th>
+				<th><a href="{{ rdc.jira_link }} " style="color:#FF018C;text-decoration:none;border-radius:15px;padding:0px 10px;border:1px solid #FF018C">Jira</a></th>
+			</tr>
+		{% endif %}
+	{% endfor %}
+	</table>
+{% endblock content %}
