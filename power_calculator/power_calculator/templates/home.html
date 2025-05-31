@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+    <form method="post">
+    <label>Site: </label>
+    <select name="site">
+      {% for site in sites %}
+      <option value="{{site}}">{{site}}</option>
+      {% endfor %}
+    </select>
+    <input type="submit" value="GO"></input>
+        {% csrf_token %}
+        <p>Don't see your site?</p>
+        {% if is_exists is True %}
+            <p>Site already exists.</p>
+        {% elif is_valid is False %}
+            <p>Enter a valid site code.</p>
+        {% endif %}
+        <input type="text" placeholder="Site code: Ex NRT5" name="new_site_code"></input>
+        <input type="submit" value="ADD"></input>
+    </form>
+  </body>
+</html>

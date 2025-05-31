@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    {% if site_code is None %}  <!--start if site_code -->
+        <h1>There are no sites registered</h1>
+      {% else %}
+        <h1>{{ site_code|upper }}</h1>
+    </head>
+      {% if not parents %}   <!--start if not parent -->
+        <h2>There are no parents strips registered</h2>
+      {% else %}
+        {% for parent in parents %} <!--start parents -->
+          <h2>{{parent}}</h2>
+          {% if not parent.child_strips %}
+            <h3>There are no child strips registered</h3>
+          {% else %}
+            {% for child in parent.enriched_child_strips %}  <!--start child -->
+            <h3>{{child}}</h3>
+            <h1>{{child.id}}</h1>
+            <!-- <h1>{{child_power}}</h1> -->
+            <h1>{{child.total_power}}</h1>
+              {% if not child.device_set.all %}
+                <h4>There are no devices</h4>
+              {% else %}
+                <table>
+                  <tr>
+                    <th>Model</th>
+                    <th>Power</th>
+                  </tr>
+                  {% for device in child.device_set.all %}  <!--start device -->
+                    <tr>
+                      <td>{{device.model}}</td>
+                      <td>{{device.power}}</td>
+                    </tr>
+                  {% endfor %}  <!--end device -->
+                  <tr>
+                    <td>Total:</td>
+                    <td>{{ child.total_power }}</td>
+                  </tr>
+
+                  </table>
+              {% endif %}
+              <a href="">Edit</a>
+            {% endfor %}  <!--end child --> 
+            {% endif %}
+        {% endfor %}  <!--end parent-->
+      {% endif %} <!--end if not parent-->
+    {% endif  %}  <!--ened if site_code -->
+  </body>
+</html>
