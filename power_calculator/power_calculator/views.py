@@ -2,31 +2,44 @@ from django.http import HttpResponse
 from django.shortcuts import render,redirect
 from sites.models import Site
 import re
+from django.shortcuts import render, redirect
+from sites.models import Site
 
 def home_view(request):
-    sites = Site.objects.values_list('site_code',flat=True).order_by('site_code')
-    context = {'sites':sites}
-    is_valid = True
+    sites = Site.objects.all()
     is_exists = False
+    is_valid = True
 
     if request.method == "POST":
-        new_site_code = request.POST.get("new_site_code").replace(' ','').replace('\t','').upper()
-        #make sure the site code follows the format NRT5(3 letters 1 Number)
-        pattern = re.compile(r"[A-Z]{3}\d")
-        is_valid = bool(pattern.match(new_site_code))
-        context['is_valid'] = is_valid
-        site = request.POST.get("site")
-        if not new_site_code:
-            return redirect(f'sites/{site.upper()}')
+        action = request.POST.get("action")
 
-        #checking if the site is a duplicate
-        for site in sites:
-            if site == new_site_code:
-                is_exists = True
-                context['is_exists'] = is_exists
-                return render(request,'home.html',context)
+        # GO button
+        if action == "go":
+            site_code = request.POST.get("site")
+            if site_code:
+                return redirect("display_power_strips", site_code=site_code)
 
-        if is_valid:
-            Site(site_code=new_site_code).save()
-            return redirect(f'sites/{new_site_code.upper()}')
-    return render(request,'home.html',context)
+        # ADD button
+        elif action == "add":
+            new_site = request.POST.get("new_site_code")
+
+            if not new_site:
+                is_valid = False
+            else:
+                new_site = new_site.replace(" ", "").upper()
+
+                if Site.objects.filter(site_code=new_site).exists():
+                    is_exists = True
+                else:
+                    Site.objects.create(site_code=new_site)
+                    return redirect("display_power_strips", site_code=new_site)
+
+    return render(
+        request,
+        "home.html",
+        {
+            "sites": sites,
+            "is_exists": is_exists,
+            "is_valid": is_valid,
+        },
+    )

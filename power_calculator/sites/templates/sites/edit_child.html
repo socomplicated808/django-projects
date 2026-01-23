@@ -1,0 +1,46 @@
+{% load site_extras %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit Devices for {{ child }}</title>
+</head>
+<body>
+
+  <h1>Edit Devices for {{ child }}</h1>
+
+  <form method="POST">
+    {% csrf_token %}
+
+    <!-- FIX: Always show exactly 6 slots -->
+    {% for slot in "123456" %}
+      {% with slot_num=slot|add:"0" %}
+        <label>
+          Slot {{ slot_num }}:
+        </label>
+
+        <select name="slot_{{ slot_num }}">
+          <!-- FIX: Explicit None option -->
+          <option value="">None</option>
+
+          <!-- FIX: Use DeviceTemplate catalog -->
+          {% for template in templates %}
+            <option value="{{ template.id }}"
+              {% if devices_by_slot|get_item:slot_num and devices_by_slot|get_item:slot_num.template.id == template.id %}
+                selected
+              {% endif %}
+            >
+              {{ template.model }} ({{ template.power }}A)
+            </option>
+          {% endfor %}
+        </select>
+
+        <br><br>
+      {% endwith %}
+    {% endfor %}
+
+    <button type="submit">Save Changes</button>
+  </form>
+
+</body>
+</html>

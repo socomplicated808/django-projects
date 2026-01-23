@@ -1,27 +1,69 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Power Calculator</title>
+
+    <link
+      rel="stylesheet"
+      href="{% static 'power_calculator/css/home.css' %}"
+    />
   </head>
-    <form method="post">
-    <label>Site: </label>
-    <select name="site">
-      {% for site in sites %}
-      <option value="{{site}}">{{site}}</option>
-      {% endfor %}
-    </select>
-    <input type="submit" value="GO"></input>
-        {% csrf_token %}
-        <p>Don't see your site?</p>
-        {% if is_exists is True %}
-            <p>Site already exists.</p>
-        {% elif is_valid is False %}
-            <p>Enter a valid site code.</p>
-        {% endif %}
-        <input type="text" placeholder="Site code: Ex NRT5" name="new_site_code"></input>
-        <input type="submit" value="ADD"></input>
-    </form>
+
+  <body>
+    <div class="page-container">
+      <header class="page-header">
+        <h1>Power Calculator</h1>
+      </header>
+
+      <main class="content">
+        <div class="card">
+          <h2>Select a Site</h2>
+
+          <form method="post">
+            {% csrf_token %}
+            <div class="form-row">
+              <label for="site">Site:</label>
+              <select name="site" id="site">
+                {% for site in sites %}
+                <option value="{{ site }}">{{ site }}</option>
+                {% endfor %}
+              </select>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" name="action" value="go">Go</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="card">
+          <h2>Add New Site</h2>
+
+          {% if is_exists %}
+          <p class="error">Site already exists.</p>
+          {% elif is_valid is False %}
+          <p class="error">Enter a valid site code.</p>
+          {% endif %}
+
+          <form method="post">
+            {% csrf_token %}
+            <div class="form-row">
+              <input
+                type="text"
+                name="new_site_code"
+                placeholder="Site code (ex: NRT5)"
+              />
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" name="action" value="add">Add</button>
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
   </body>
 </html>

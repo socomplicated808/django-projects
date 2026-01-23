@@ -1,53 +1,76 @@
+{% load static %} {% load site_extras %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    {% if site_code is None %}  <!--start if site_code -->
-        <h1>There are no sites registered</h1>
-      {% else %}
-        <h1>{{ site_code|upper }}</h1>
-    </head>
-      {% if not parents %}   <!--start if not parent -->
-        <h2>There are no parents strips registered</h2>
-      {% else %}
-        {% for parent in parents %} <!--start parents -->
-          <h2>{{parent}}</h2>
-          {% if not parent.child_strips %}
-            <h3>There are no child strips registered</h3>
-          {% else %}
-            {% for child in parent.enriched_child_strips %}  <!--start child -->
-            <h3>{{child}}</h3>
-            <h1>{{child.id}}</h1>
-            <!-- <h1>{{child_power}}</h1> -->
-            <h1>{{child.total_power}}</h1>
-              {% if not child.device_set.all %}
-                <h4>There are no devices</h4>
-              {% else %}
-                <table>
-                  <tr>
-                    <th>Model</th>
-                    <th>Power</th>
-                  </tr>
-                  {% for device in child.device_set.all %}  <!--start device -->
-                    <tr>
-                      <td>{{device.model}}</td>
-                      <td>{{device.power}}</td>
-                    </tr>
-                  {% endfor %}  <!--end device -->
-                  <tr>
-                    <td>Total:</td>
-                    <td>{{ child.total_power }}</td>
-                  </tr>
+    <title>Power Distribution</title>
+    <link
+      rel="stylesheet"
+      href="{% static 'sites/css/power_distribution.css' %}"
+    />
+  </head>
 
-                  </table>
-              {% endif %}
-              <a href="">Edit</a>
-            {% endfor %}  <!--end child --> 
-            {% endif %}
-        {% endfor %}  <!--end parent-->
-      {% endif %} <!--end if not parent-->
-    {% endif  %}  <!--ened if site_code -->
+  <body>
+    <h1>{{ site_code|upper }}</h1>
+
+    <div class="layout">
+      <!-- LEFT SIDEBAR: PARENTS ONLY -->
+      <div class="sidebar">
+        <h3>Parent Strips</h3>
+        <ul>
+          {% for parent in parents %}
+          <li>
+            <a href="?parent={{ parent.name }}"> {{ parent.name }} </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <!-- RIGHT CONTENT: CHILDREN ONLY -->
+      <div class="content">
+        {% if not selected_parent %}
+        <p>Select a parent strip from the left.</p>
+        {% else %}
+
+        <h2>{{ selected_parent.name }}</h2>
+
+        {% for child in selected_parent.enriched_child_strips %}
+        <h3>{{ child }}</h3>
+
+        <table border="1">
+          <tr>
+            <th>Slot</th>
+            <th>Device</th>
+            <th>Amperes</th>
+          </tr>
+
+          {% for slot_num in slot_range %}
+          <tr>
+            <td>{{ slot_num }}</td>
+
+            {% with device=child.slots|get_item:slot_num %} {% if device %}
+            <td>{{ device.template.model }}</td>
+            <td>{{ device.template.power }}A</td>
+            {% else %}
+            <td>None</td>
+            <td>0A</td>
+            {% endif %} {% endwith %}
+          </tr>
+          {% endfor %}
+
+          <tr>
+            <td colspan="2"><strong>Total</strong></td>
+            <td><strong>{{ child.total_power_value }}A</strong></td>
+          </tr>
+        </table>
+
+        <br />
+        <a href="{% url 'edit_child' site_code child.id %}">Edit</a>
+        <hr />
+
+        {% endfor %} {% endif %}
+      </div>
+    </div>
   </body>
 </html>
