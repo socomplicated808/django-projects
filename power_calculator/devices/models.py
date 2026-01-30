@@ -1,7 +1,7 @@
 from django.db import models
 from powerstrips.models import Child
 
-# NEW: device catalog
+# represents a device and its information
 class DeviceTemplate(models.Model):
     type = models.CharField(max_length=50)
     model = models.CharField(max_length=50, unique=True)
@@ -11,7 +11,7 @@ class DeviceTemplate(models.Model):
         return f"{self.model} ({self.power}A)"
 
 
-# CHANGED: represents a plugged-in device
+# represents a plugged-in device
 class Device(models.Model):
     child_strip = models.ForeignKey(
         Child,
@@ -28,7 +28,6 @@ class Device(models.Model):
         blank=True
     )
 
-    # NEW: enforce exactly 6 slots
     slot = models.PositiveSmallIntegerField(null=True,blank=True)
 
     class Meta:
