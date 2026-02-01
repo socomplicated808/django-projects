@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'sites',
     'powerstrips',
     'devices',
+    'users',
 ]
 
 MIDDLEWARE = [
