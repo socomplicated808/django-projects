@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.shortcuts import render,redirect
 from sites.models import Site
@@ -5,8 +6,9 @@ import re
 from django.shortcuts import render, redirect
 from sites.models import Site
 
+@login_required(login_url="/login/")
 def home_view(request):
-    sites = Site.objects.all()
+    sites = Site.objects.values_list("site_code",flat=True).order_by("site_code")
     is_exists = False
     is_valid = True
 
@@ -17,8 +19,8 @@ def home_view(request):
         if action == "add":
             new_site_code = request.POST.get("new_site_code", "")
 
-            # normalize input (uppercase + strip spaces)
-            new_site_code = new_site_code.strip().upper()
+            # normalize input (uppercase + strip spaces and tabs)
+            new_site_code = new_site_code.strip().replace(" ","").replace("\t","").upper()
 
             # 3 letters followed by 1 number
             pattern = r"^[A-Z]{3}[1-9]$"
@@ -32,7 +34,7 @@ def home_view(request):
             else:
                 # create site only if valid
                 Site.objects.create(site_code=new_site_code)
-                return redirect("home")  # or refresh page
+                return redirect(f"sites/{new_site_code.upper()}")  # or refresh page
 
         elif action == "go":
             site_code = request.POST.get("site")
