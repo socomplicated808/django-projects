@@ -1,4 +1,6 @@
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.views import LoginView
+from django.contrib.auth import login
 from django.http import HttpResponse
 from django.shortcuts import render,redirect
 from sites.models import Site
@@ -48,3 +50,23 @@ def home_view(request):
     }
 
     return render(request, "home.html", context)
+
+
+class RoleBasedLoginView(LoginView):
+    template_name = "login.html"
+
+    def form_valid(self, form):
+        user = form.get_user()
+        login(self.request, user)
+
+        # Admin users → Django admin
+        if user.is_superuser or user.is_staff:
+            return redirect("/admin/")
+
+        # Engineers → redirect to selected site if exists
+        site_code = self.request.session.get("selected_site")
+        if site_code:
+            return redirect(f"/sites/{site_code}/")
+
+        # fallback
+        return redirect("/")

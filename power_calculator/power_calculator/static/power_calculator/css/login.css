@@ -1,0 +1,120 @@
+/* ===============================
+   Variables
+   =============================== */
+:root {
+  --bg-main: #f7f8fc;
+  --card-bg: #ffffff;
+  --primary: #7c83fd;
+  --primary-hover: #6b72e6;
+  --text-main: #2f2f2f;
+  --muted: #7a7a7a;
+  --error-bg: #fde2e2;
+  --error-text: #8b2c2c;
+  --border-soft: #e6e6f0;
+}
+
+/* ===============================
+   Reset + base 
+   =============================== */
+* {
+  box-sizing: border-box;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Arial,
+    sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-main);
+  color: var(--text-main);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===============================
+   Login container
+   =============================== */
+.login-container {
+  text-align: center;
+}
+
+/* ===============================
+   Login card
+   =============================== */
+.login-card {
+  background: var(--card-bg);
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  width: 380px;
+}
+
+/* Title */
+.login-card h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.login-card h2 {
+  font-size: 16px;
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+
+/* ===============================
+   Inputs
+   =============================== */
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border-soft);
+  margin-bottom: 12px;
+}
+
+/* Focus state */
+.login-card input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(124, 131, 253, 0.2);
+}
+
+/* ===============================
+   Button
+   =============================== */
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.login-card button:hover {
+  background-color: var(--primary-hover);
+}
+
+/* ===============================
+   Error message
+   =============================== */
+.error {
+  background-color: var(--error-bg);
+  color: var(--error-text);
+  padding: 10px 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
