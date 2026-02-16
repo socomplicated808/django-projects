@@ -5,15 +5,13 @@
     <meta charset="UTF-8" />
     <title>Edit Devices for {{ child }}</title>
   </head>
+
   <body>
     <h1>Edit Devices for {{ child }}</h1>
 
     <form method="POST">
-      {% csrf_token %}
-
-      <!-- Always show exactly 6 slots -->
-      {% for slot in "123456" %} {% with slot_num=slot|add:"0" %}
-      <label> Slot {{ slot_num }}: </label>
+      {% csrf_token %} {% for slot_num in slot_range %}
+      <label>Slot {{ slot_num }}:</label>
 
       <select name="slot_{{ slot_num }}">
         <option value="">None</option>
@@ -39,7 +37,7 @@
       </select>
 
       <br /><br />
-      {% endwith %} {% endfor %}
+      {% endfor %}
 
       <button type="submit">Save Changes</button>
     </form>

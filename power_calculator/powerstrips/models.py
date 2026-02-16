@@ -1,9 +1,9 @@
 from django.db import models
 
+
 class Child(models.Model):
     location = models.CharField(max_length=50)
 
-    # NEW: total amperage helper
     def total_power(self):
         return sum(
             device.template.power
@@ -16,8 +16,19 @@ class Child(models.Model):
 
 
 class Parent(models.Model):
-    name = models.CharField(max_length=20, primary_key=True)
-    child_strips = models.ManyToManyField(Child)
+    site = models.ForeignKey(
+        "sites.Site",
+        on_delete=models.CASCADE,
+        related_name="parent_strips"
+    )
+
+    name = models.CharField(max_length=20)
+
+    child_strips = models.ManyToManyField(
+        Child,
+        related_name="parents",
+        blank=True
+    )
 
     def __str__(self):
-        return self.name
+        return f"{self.site.site_code} | {self.name}"

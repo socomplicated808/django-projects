@@ -7,14 +7,12 @@ from devices.models import Device
 # from powerstrips.forms import ChildForm
 
 # Create your views here.
-from django.shortcuts import render, get_object_or_404, redirect
-from .models import Site
-from powerstrips.models import Parent, Child
 from devices.models import Device, DeviceTemplate
 
-from devices.models import Device
-from django.shortcuts import render, get_object_or_404
-from .models import Site
+from users.utils import user_can_access_site
+from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+from django.core.exceptions import PermissionDenied
 
 def display_power_strips(request, site_code):
     site = get_object_or_404(Site, site_code=site_code.upper())
@@ -42,7 +40,6 @@ def display_power_strips(request, site_code):
 
         parent.enriched_child_strips = enriched_children
 
-        # ✅ ONLY set selected_parent if explicitly clicked
         if selected_parent_name and parent.name == selected_parent_name:
             selected_parent = parent
 
@@ -56,35 +53,46 @@ def display_power_strips(request, site_code):
     return render(request, "sites/power_distribution.html", context)
 
 
-def edit_child(request, site_code, child_id):
-    child = get_object_or_404(Child, id=child_id)
 
-    # All available device templates (catalog)
+@login_required
+def edit_child(request, site_code, child_id):
+
+    # Get site safely
+    site = get_object_or_404(Site, site_code=site_code.upper())
+
+    # 🔒 Permission check
+    if not user_can_access_site(request.user, site_code):
+        raise PermissionDenied("You do not have permission to edit this site!")
+
+    # 🔒 Child must belong to this site
+    child = get_object_or_404(
+        Child,
+        id=child_id,
+        parents__site=site
+    )
+
     templates = DeviceTemplate.objects.all()
 
-    # Devices currently plugged into this child strip
     devices = child.devices.all()
 
-    # Build slot map (1–6)
     slots = {i: None for i in range(1, 7)}
     for device in devices:
         slots[device.slot] = device
 
     if request.method == "POST":
-        # Clear existing devices for this child
         child.devices.all().delete()
 
-        # Recreate devices based on submitted slots
         for slot in range(1, 7):
             template_id = request.POST.get(f"slot_{slot}")
             if template_id:
                 template = get_object_or_404(DeviceTemplate, id=template_id)
                 Device.objects.create(
-                    child_strip=child,
+                    child=child,
                     template=template,
                     slot=slot
                 )
 
+        messages.success(request, "Devices updated successfully.")
         return redirect("display_power_strips", site_code=site_code)
 
     context = {

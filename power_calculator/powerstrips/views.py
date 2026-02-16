@@ -1,35 +1,59 @@
 from django.shortcuts import render
 
 # Create your views here.
-
+from django.contrib.auth.decorators import login_required
+from django.contrib import messages
 from django.shortcuts import render, get_object_or_404, redirect
 from powerstrips.models import Child
 from devices.models import Device
+from sites.models import Site
+from users.utils import user_can_access_site
 
+@login_required
 def edit_child(request, site_code, child_id):
-    child = get_object_or_404(Child, id=child_id)
-    all_devices = Device.objects.all()
-    current_devices = child.device_set.all()
+    # Get site from URL
+    site = get_object_or_404(Site, site_code=site_code)
 
-    if request.method == 'POST':
-        # Clear existing devices
-        current_devices.delete()
+    # HARD permission check (user must be assigned this site)
+    if not user_can_access_site(request.user, site_code):
+        messages.error(request, "You do not have permission to edit this site.")
+        return redirect("display_power_strips", site_code=site_code)
 
-        # Assign new devices
-        device_ids = request.POST.getlist('devices')
-        for device_id in device_ids:
-            device = get_object_or_404(Device, id=device_id)
-            # Duplicate device under this child
-            Device.objects.create(
-                model=device.model,
-                power=device.power,
-                child=child
-            )
-        return redirect('power_distribution')  # Adjust this to your actual page name
+    # CRITICAL SECURITY: Child must belong to this site
+    child = get_object_or_404(Child, id=child_id, site=site)
 
-    return render(request, 'edit_child.html', {
-        'site_code': site_code,
-        'child': child,
-        'all_devices': all_devices,
-        'current_devices': current_devices
+    # Get all device templates (or filter if needed)
+    templates = Device.objects.filter(is_template=True)
+
+    # Build slot data (1–6)
+    slot_range = range(1, 7)
+    devices_by_slot = {d.slot: d for d in child.devices.all()}
+
+    if request.method == "POST":
+        # Remove old devices for this child
+        child.devices.all().delete()
+
+        # Create new devices per slot
+        for slot in slot_range:
+            template_id = request.POST.get(f"slot_{slot}")
+            if template_id:
+                template = get_object_or_404(Device, id=template_id)
+
+                # Clone template into real device
+                Device.objects.create(
+                    model=template.model,
+                    power=template.power,
+                    slot=slot,
+                    child=child,
+                )
+
+        messages.success(request, "Devices updated successfully.")
+        return redirect("display_power_strips", site_code=site_code)
+
+    return render(request, "sites/edit_child.html", {
+        "site_code": site_code,
+        "child": child,
+        "templates": templates,
+        "slot_range": slot_range,
+        "devices_by_slot": devices_by_slot,
     })

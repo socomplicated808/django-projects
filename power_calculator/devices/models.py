@@ -1,20 +1,18 @@
 from django.db import models
-from powerstrips.models import Child
 
-# represents a device and its information
+
 class DeviceTemplate(models.Model):
-    type = models.CharField(max_length=50)
+    device_type = models.CharField(max_length=50)
     model = models.CharField(max_length=50, unique=True)
-    power = models.DecimalField(max_digits=5, decimal_places=2)
+    power = models.DecimalField(max_digits=6, decimal_places=2)  # Amps
 
     def __str__(self):
         return f"{self.model} ({self.power}A)"
 
 
-# represents a plugged-in device
 class Device(models.Model):
-    child_strip = models.ForeignKey(
-        Child,
+    child = models.ForeignKey(
+        "powerstrips.Child",
         related_name="devices",
         on_delete=models.CASCADE,
         null=True,
@@ -23,16 +21,14 @@ class Device(models.Model):
 
     template = models.ForeignKey(
         DeviceTemplate,
-        on_delete=models.CASCADE,
-        null=True,
-        blank=True
+        on_delete=models.PROTECT
     )
 
-    slot = models.PositiveSmallIntegerField(null=True,blank=True)
+    slot = models.PositiveSmallIntegerField()
 
     class Meta:
-        unique_together = ('child_strip', 'slot')
-        ordering = ['slot']
+        unique_together = ("child", "slot")
+        ordering = ["slot"]
 
     def __str__(self):
         return f"{self.template.model} (Slot {self.slot})"
